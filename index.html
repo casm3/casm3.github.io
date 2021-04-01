@@ -3,111 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Carlos' Personal Site</title>
+  <title>Carlos Melo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&family=Kiwi+Maru:wght@500&display=swap">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="carlos.png" alt="carlos profile picture" width="150" height="150"></td>
-      <td>
-        <h1>Carlos Melo</h1>
-      <p><em>
-          <strong>MSc.</strong>, <a href="https://www3.cin.ufpe.br/en/">Informatics Center</a>, 2016.
-          <a href="http://lattes.cnpq.br/6674277911221492">Lattes CV</a>
-        </em></p>
-      <br>
-    </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <p>Received his Bachelor's degree in Computer Science in 2013 and his Masters' in 2016. He was a professor with a cellist link at the Alpha Faculdade in Systems Analysis and Development course between 2018 and 2019. From 2015 to 2017 he
-    worked on a research project signed by Motorola in the scope of R&D&I.
-  </p>
-  <p>His areas of interest include performance evaluation, dependability, energy consumption, capacity planning, Petri nets, and formal models, covering the areas of cloud computing, sustainable data centers, networks, and distributed systems, as
-    well as blockchain and its technologies.</p>
-  <hr size="3" noshade>
-  <h3>Papers and Teaching</h3>
-  <ul>
-    <a href="papers.html">Papers</a>
-      <h3>Teaching</h3>
-      <h4>Higher Education</h4>
-      <ul>
-        <li>Computer Networks, Faculdade Alpha. 2018.</li>
-        <li>System's General Theory, Faculdade Alpha. 2019.</li>
-        <li>Computer Forensics, UniSãoMiguel. 2021.</li>
-      </ul>
-      <h4>Courses and Workshop</h4>
-      <ul>
-        <li>Blockchain. PDVGT. 2019.</li>
-        <li>Cloud Computing. PDVGT. 2020.</li>
-      </ul>
-  </ul>
+  <div class="top-container">
+    <!--<img src="images/cloud.png" class="top-cloud" alt="cloud-img">-->
+    <h1>Carlos Melo.</h1>
+    <h2 id="subtitle">a <span>Pro</span>fessor and <span>Pro</span>grammer</h2>
+    <!--
+    <img src="images/cloud.png" class="bottom-cloud" alt="cloud-img">
+      -->
+      <!--
+    <img src="images/space-invaders.png" alt="A space invaders ship from Smashicons" width="30px">-->
+
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/carlos.png" alt="carlos-profile-pic" width="150px" height="150px">
+      <h2>About Me.</h2>
+      <p class="intro">Computer Scientist by nature since 2013, with a Masters' degree in Distributed Systems' Perfomance and Dependability Evaluation.
+        Currently, I am a PhD Candidate in the same research area at <a href="https://www3.cin.ufpe.br/en/" target="_blank">Federal University of Pernambuco.</a></p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2 class="cabecalho">My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/classroom.png" alt="A teacher Icon from Freepik" width="150">
+        <h3>Teacher and Researcher</h3>
+        <p class="skill-desc">I've been a professor since 2018, and acted as a researcher in a project signed by Motorola in the scope of R&D&I (2015-2017).
+          Also, as an active member of the <a href="http://www.modcs.org" target="_blank">MoDCS</a> research group, I have published some papers that you can see right <a href="papers.html">here</a>.</p>
+      </div>
+      <div class="skill-row">
+        <img class="cloud-img" src="images/cloud-processing.png" alt="A cloud computing Icon from Eucalyp" width="150">
+        <h3>Programmer</h3>
+        <p class="skill-desc">Back in 2013, I was an Intern PHP Developer at Tenosoft, and once in a while, I act as a non-certified Cloud Architect, Data Scientist, Mobile and Web Developer.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p class="contact-message">For more about me, check my <a href="http://lattes.cnpq.br/6674277911221492" target="_blank">Lattes CV</a> or get in touch by mail or social media.</p>
+    </div>
+  </div>
 
 
-<hr size="3" noshade>
-<!-- Table -->
-<h3>Working Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2012 - 2013</td>
-        <td>Web Developer at Tenosoft</td>
-      </tr>
-      <tr>
-        <td>2015 - 2017</td>
-        <td>Researcher at CIn - Motorola Covenant</td>
-      </tr>
-      <tr>
-        <td>2018 - 2019</td>
-        <td>Professor at Faculdade Alpha</td>
-      </tr>
-      <tr>
-        <td>2021</td>
-        <td>Professor at UniSãoMiguel</td>
-      </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-  </table>
-
-  <hr size="3" noshade>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Web Development</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Data Science</td>
-      <td>⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Machine Learning</td>
-      <td>⭐</td>
-    </tr>
-    <tr>
-      <td>Cloud Computing</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Computer Networks</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Information Security</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <a href="contact.html" target="_blank">Contact Me</a>
+  </div>
 </body>
+<footer>
+  <div class="bottom-container">
+    <a class="footer-link" href="mailto:prof.casm@gmail.com">Mail</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/carlos-melo-32b2b133/">LinkedIn</a>
+    <a class="footer-link" href="https://scholar.google.com/citations?user=-7cJM7gAAAAJ&hl=pt-BR">Scholar</a>
+    <a class="footer-link" href="https://www.researchgate.net/profile/Carlos-Melo-16">ResearchGate</a>
+    <p class="rights">© 2021 Carlos Melo.</p>
+  </div>
+</footer>
 
 </html>
