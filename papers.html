@@ -3,11 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Papers</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&family=Kiwi+Maru:wght@500&display=swap">
   </head>
   <body>
-    <ul>
-      <h3>Journals</h3>
+    <div class="top-container">
+      <!--<img src="images/cloud.png" class="top-cloud" alt="cloud-img">-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#journals">Journals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conferences">Conferences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+      <h1>Carlos Melo.</h1>
+      <h2 id="subtitle">Take a look at some of my publications</h2>
+      <!--
+      <img src="images/cloud.png" class="bottom-cloud" alt="cloud-img">
+        -->
+        <!--
+      <img src="images/space-invaders.png" alt="A space invaders ship from Smashicons" width="30px">-->
+
+    </div>
+    <span id="journals"></span>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/8852.jpg" alt="a set of books from Freepik" width="250px" height="250px"></div>
+    <h2>Journals</h2>
       <ul>
         <li>Paulo Pereira, <strong>Carlos Melo</strong>, Jean Araujo, and Paulo Maciel. <a href="https://www.springer.com/journal/11227" target="_blank">Analytical Models for Availability Evaluation of Edge and Fog Computing Nodes</a>. The Journal of
           Supercomputing. 2021. ISSN: 1573-0484 (Online).</li>
@@ -28,10 +62,14 @@
         <li><strong>Carlos Melo</strong>, Jean Araujo, Vandi Alves, and Paulo Maciel. <a href="http://www.jsoftware.us/index.php?m=content&c=index&a=show&catid=178&id=2731" target="_blank">Investigation of Software Aging Effects on the OpenStack
             Cloud Computing Platform</a>. Journal of Software. JSW 2017. ISSN: 1796-217X.</li>
       </ul>
-    </ul>
-    <ul>
-      <h3>Conferences</h3>
+      <span id="conferences"></span>
+      <hr>
+    <h2>Conferences</h2>
       <ul>
+        <li>Kadna Camboim, Jean Araujo, <strong>Carlos Melo</strong>, Paulo Maciel, and Fernanda Alencar. <a href="http://dl.acm.org/" target="_blank">Dependability and Sensitivity Analysis in Dense Data Centers Networks</a>.
+          In: Proceedings of The 16th Iberian Conference on Information Systems and Technologies (CISTI 2021). June 23 – 26, 2021. Chaves, Portugal.</li>
+        <li>Jean Araujo, Cezar Filho, and <strong>Carlos Melo</strong>. <a href="http://dl.acm.org/" target="_blank">UNAME Tool: Automatic Generation of Computer Resources Monitoring Scripts</a>.
+          In: Proceedings of The 16th Iberian Conference on Information Systems and Technologies (CISTI 2021). June 23 – 26, 2021. Chaves, Portugal.</li>
         <li>Kadna Camboim, João Ferreira, Jean Araujo, <strong>Carlos Melo</strong>, Paulo Maciel, and Fernanda Alencar. <a href="http://dl.acm.org/" target="_blank">Dependability and Sustainability Evaluation of Data Center Electrical
             Architectures</a>. In: Proceedings of The 15th Annual IEEE International Systems
           Conference (Syscon 2021). April 15 – May 15, 2021. Vancouver, Canada.</li>
@@ -83,6 +121,22 @@
             target="_blank">Ambiente virtualizado para ensino de programaçao paralela e computaçao em cluster</a>. In XXXIII Congresso da Sociedade Brasileira de
           Computação/XXI Workshop sobre Educação em Computação, Maceió.</li>
       </ul>
-    </ul>
+    </div>
+    <span id="contact"></span>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p class="contact-message">For more about me, check my <a href="http://lattes.cnpq.br/6674277911221492" target="_blank">Lattes CV</a> or get in touch by mail or social media.</p>
+    </div>
+  </div>
   </body>
+  <footer>
+    <div class="bottom-container">
+      <a class="footer-link" href="mailto:prof.casm@gmail.com">Mail</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/carlos-melo-32b2b133/">LinkedIn</a>
+      <a class="footer-link" href="https://scholar.google.com/citations?user=-7cJM7gAAAAJ&hl=pt-BR">Scholar</a>
+      <a class="footer-link" href="https://www.researchgate.net/profile/Carlos-Melo-16">ResearchGate</a>
+      <p class="rights">© 2021 Carlos Melo.</p>
+    </div>
+  </footer>
 </html>

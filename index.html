@@ -4,45 +4,66 @@
 <head>
   <meta charset="utf-8">
   <title>Carlos Melo</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&family=Kiwi+Maru:wght@500&display=swap">
 </head>
 
 <body>
   <div class="top-container">
-    <!--<img src="cloud.png" class="top-cloud" alt="cloud-img">-->
+    <!--<img src="images/cloud.png" class="top-cloud" alt="cloud-img">-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="papers.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+    </nav>
     <h1>Carlos Melo.</h1>
     <h2 id="subtitle">a <span>Pro</span>fessor, <span>Pro</span>grammer and not so <span>Pro</span> gamer</h2>
     <!--
-    <img src="cloud.png" class="bottom-cloud" alt="cloud-img">
+    <img src="images/cloud.png" class="bottom-cloud" alt="cloud-img">
       -->
       <!--
-    <img src="space-invaders.png" alt="A space invaders ship from Smashicons" width="30px">-->
+    <img src="images/space-invaders.png" alt="A space invaders ship from Smashicons" width="30px">-->
 
   </div>
+  <span id="about"></span>
   <div class="middle-container">
     <div class="profile">
-      <img src="carlos.png" alt="carlos-profile-pic" width="150px" height="150px">
+      <img src="images/carlos.png" alt="carlos-profile-pic" width="150px" height="150px">
       <h2>About Me.</h2>
       <p class="intro">Computer Scientist by nature since 2013, with a Masters' degree in Distributed Systems' Perfomance and Dependability Evaluation.
         Currently, I am a PhD Candidate in the same research area at <a href="https://www3.cin.ufpe.br/en/" target="_blank">Federal University of Pernambuco.</a></p>
     </div>
+    <span id="skills"></span>
     <hr>
     <div class="skills">
       <h2 class="cabecalho">My Skills.</h2>
       <div class="skill-row">
-        <img class="code-img" src="classroom.png" alt="A teacher Icon from Freepik" width="150">
+        <img class="code-img" src="images/classroom.png" alt="A teacher Icon from Freepik" width="150">
         <h3>Teacher and Researcher</h3>
         <p class="skill-desc">I've been a professor since 2018, and acted as a researcher in a project signed by Motorola in the scope of R&D&I (2015-2017).
           Also, as an active member of the <a href="http://www.modcs.org" target="_blank">MoDCS</a> research group, I have published some papers that you can see right <a href="papers.html">here</a>.</p>
-      </div>
+      </div><br>
       <div class="skill-row">
-        <img class="cloud-img" src="cloud-processing.png" alt="A cloud computing Icon from Eucalyp" width="150">
+        <img class="cloud-img" src="images/cloud-processing.png" alt="A cloud computing Icon from Eucalyp" width="150">
         <h3>Programmer</h3>
         <p class="skill-desc">Back in 2013, I was an Intern PHP Developer at Tenosoft, and once in a while, I act as a non-certified Cloud Architect, Data Scientist, Mobile and Web Developer.</p>
       </div>
     </div>
+    <span id="contact"></span>
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>

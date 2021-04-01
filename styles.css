@@ -21,6 +21,7 @@ h2 {
 }
 
 h3 {
+  color: black;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,15 +40,23 @@ a:hover {
   text-decoration: none;
 }
 
+li {
+  text-align: justify;
+  line-height: 2;
+  font-size: 1.5rem;
+  margin: auto;
+  width: 40%;
+}
+
 p {
   line-height: 2;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .top-container {
   background-color: #66BFBF;
-  padding-top: 5px;
   position: relative;
+  padding-top: 40px;
 }
 
 .bottom-cloud {
@@ -69,7 +78,6 @@ p {
 .intro{
   margin: auto;
   width: 40%;
-  text-align: justify;
 }
 
 hr{
@@ -91,7 +99,6 @@ hr{
   float: left;
   margin-right: 30px;
 }
-
 
 .cloud-img{
   float: right;
@@ -125,6 +132,16 @@ span {
   color: #1b2021;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
+}
+
+.nav-item {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 30px;
+}
+
+.nav-link:hover{
+  color: #EAF6F6;
 }
 
 .footer-link:hover{
