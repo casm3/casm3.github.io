@@ -69,6 +69,7 @@ p {
 .intro{
   margin: auto;
   width: 35%;
+  text-align: justify;
 }
 
 hr{
