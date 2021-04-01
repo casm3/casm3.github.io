@@ -68,7 +68,7 @@ p {
 
 .intro{
   margin: auto;
-  width: 50%;
+  width: 35%;
 }
 
 hr{
@@ -83,7 +83,7 @@ hr{
 .skills {
   margin: 30px auto 100px auto;
   text-align: left;
-  width: 50%;
+  width: 40%;
 }
 
 .code-img{
