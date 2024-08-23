@@ -1,3 +1,15 @@
+.intro {
+  text-align: left;
+  margin: auto;
+  width: 60%;
+}
+
+.skills {
+  text-align: left;
+  margin: auto;
+  width: 60%;
+}
+
 body {
   color: #40514E;
   font-family: 'Merriweather', serif;
