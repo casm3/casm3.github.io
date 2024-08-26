@@ -194,3 +194,13 @@ span {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
 }
+
+.pdf-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
+}
