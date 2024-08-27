@@ -1,46 +1,156 @@
 [
-    {
-      "title": "Performance Modeling of Blockchain-Based Systems",
-      "authors": ["Carlos Melo", "Paulo Maciel"],
-      "journal": "Journal of Systems and Software",
-      "date": "2023",
-      "volume": "192",
-      "issue": "1",
-      "pages": "110247",
-      "url": "https://www.journals.elsevier.com/journal-of-systems-and-software",
-      "pdf": "https://www.example.com/performance_modeling.pdf"
-    },
-    {
-      "title": "Dependability Evaluation of Cloud Computing Platforms",
-      "authors": ["Carlos Melo", "Jamilson Dantas"],
-      "journal": "IEEE Transactions on Dependable and Secure Computing",
-      "date": "2022",
-      "volume": "19",
-      "issue": "4",
-      "pages": "2176-2188",
-      "url": "https://ieeexplore.ieee.org/document/9534312",
-      "pdf": "https://www.example.com/dependability_cloud_computing.pdf"
-    },
-    {
-      "title": "Cost Analysis of Data Center Architectures",
-      "authors": ["Carlos Melo", "Fernanda Alencar"],
-      "journal": "International Journal of Cloud Computing",
-      "date": "2021",
-      "volume": "12",
-      "issue": "3",
-      "pages": "123-135",
-      "url": "https://www.inderscience.com/jhome.php?jcode=ijcc",
-      "pdf": "https://www.example.com/cost_analysis.pdf"
-    },
-    {
-      "title": "Blockchain for IoT: Challenges and Opportunities",
-      "authors": ["Carlos Melo", "Paulo Pereira"],
-      "journal": "IEEE Internet of Things Journal",
-      "date": "2020",
-      "volume": "7",
-      "issue": "12",
-      "pages": "11352-11365",
-      "url": "https://ieeexplore.ieee.org/document/9160674",
-      "pdf": "https://www.example.com/blockchain_iot.pdf"
-    }
-  ]
+  {
+    "title": "A comprehensive hyperledger fabric performance evaluation based on resources capacity planning",
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Sila", "André Soares"],
+    "journal": "Cluster Computing",
+    "date": "2024",
+    "volume": "1",
+    "issue": "1",
+    "pages": "1",
+    "url": "https://link.springer.com/article/10.1007/s10586-024-04591-4",
+    "pdf": "assets/publications/pdf/journals/journal-blockchain-2024.pdf"
+  },
+  {
+    "title": "Performance and availability evaluation of the blockchain platform hyperledger fabric",
+    "authors": ["Carlos Melo", "Felipe Oliveira", "Jamilson Dantas", "Jean Araujo", "Paulo Pereira", "Ronierison Maciel", "Paulo Maciel"],
+    "journal": "Journal of Supercomputing",
+    "date": "2022",
+    "volume": "78",
+    "issue": "1",
+    "pages": "12505-12527",
+    "url": "https://link.springer.com/article/10.1007/s11227-022-04361-2",
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2022.pdf"
+  },
+  {
+    "title": "A survey on reliability and availability modeling of edge, fog, and cloud computing. Journal of Reliable Intelligent Environments",
+    "authors": ["Paulo Maciel", "Jamilson Dantas", "Carlos Melo", "Paulo Pereira", "Felipe Oliveira", "Jean Araujo", "Rubens Matos"],
+    "journal": "Journal of Reliable Intelligent Environments",
+    "date": "2022",
+    "volume": "8",
+    "issue": "1",
+    "pages": "227-245",
+    "url": "https://link.springer.com/article/10.1007/s40860-021-00154-1",
+    "pdf": "assets/publications/pdf/journals/journal-jorie-2022.pdf"
+  },
+  {
+    "title": "Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing",
+    "authors": ["Iure Fé", "Rubens Matos", "Jamilson Dantas", "Carlos Melo", "Tuan Anh Nguyen", "Dugki Min", "Eunmi Choi", "Francisco Airton Sila", "Paulo Maciel"],
+    "journal": "Sensors",
+    "date": "2022",
+    "volume": "22",
+    "issue": "1",
+    "pages": "1221",
+    "url": "https://www.mdpi.com/1424-8220/22/3/1221",
+    "pdf": "assets/publications/pdf/journals/journal-sensors-2022.pdf"
+  },
+  {
+    "title": "Cloud Infrastructure Planning: Models Considering an Optimization Method, Cost and Performance Requirements.",
+    "authors": ["Jamilson Dantas", "Carlos Melo", "Paulo Maciel", "Rubens Matos"],
+    "journal": "International Journal of GRID and Utility Computing",
+    "date": "2023",
+    "volume": "14",
+    "issue": "4",
+    "pages": "110247",
+    "url": "https://www.inderscience.com/offer.php?id=132613",
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2023.pdf"
+  },
+  {
+    "title": "Distributed application provisioning over Ethereum-based private and permissioned blockchain: availability modeling, capacity, and costs planning",
+    "authors": ["Carlos Melo", "Paulo Pereira", "Jamilson Dantas", "Paulo Maciel"],
+    "journal": "Journal of Supercomputing",
+    "date": "2021",
+    "volume": "77",
+    "issue": "1",
+    "pages": "9615-9641",
+    "url": "https://link.springer.com/article/10.1007/s11227-020-03617-z",
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021.pdf"
+  },
+  {
+    "title": "A model-based approach for planning blockchain service provisioning",
+    "authors": ["Carlos Melo", "Jean Araujo", "Jamilson Dantas", "Paulo Pereira", "Paulo Maciel"],
+    "journal": "Computing",
+    "date": "2021",
+    "volume": "104",
+    "issue": "1",
+    "pages": "315-337",
+    "url": "https://link.springer.com/article/10.1007/s00607-021-00956-4",
+    "pdf": "assets/publications/pdf/journals/journal-computing-2021.pdf"
+  },
+  {
+    "title": "Analytical models for availability evaluation of edge and fog computing nodes",
+    "authors": ["Paulo Pereira", "Carlos Melo", "Jean Araujo", "Paulo Maciel"],
+    "journal": "Journal of Supercomputing",
+    "date": "2021",
+    "volume": "77",
+    "issue": "1",
+    "pages": "9905-9933",
+    "url": "https://link.springer.com/article/10.1007/s11227-021-03672-0",
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021-2.pdf"
+  },
+  {
+    "title": "Cloud infrastructure planning considering the impact of maintenance and self-healing routines over cost and dependability attributes",
+    "authors": ["Carlos Melo", "Jean Araujo", "Jamilson Dantas", "Paulo Pereira", "Felipe Oliveira", "Paulo Maciel"],
+    "journal": "International Journal of GRID and Utility Computing",
+    "date": "2021",
+    "volume": "1",
+    "issue": "1",
+    "pages": "1",
+    "url": "https://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijguc#:~:text=and%20self%2Dhealing-,routines,-over%20cost%20and",
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2021.pdf"
+  },
+  {
+    "title": "Performance evaluation in BRT systems: An analysis to predict the BRT systems planning",
+    "authors": ["Renata Dantas", "Jamilson Dantas", "Carlos Melo", "Paulo Maciel"],
+    "journal": "Case Studies on Transport Policy",
+    "date": "2021",
+    "volume": "9",
+    "issue": "3",
+    "pages": "1141-1150",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S2213624X2100095X?via%3Dihub",
+    "pdf": "assets/publications/pdf/journals/journal-its-2020.pdf"
+  },
+  {
+    "title": "Models for hyper-converged cloud computing infrastructures planning",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Jean Araujo", "Paulo Maciel", "Rubens Matos", "Danilo Oliveira", "Iure Fé"],
+    "journal": "International Journal of GRID and Utility Computing",
+    "date": "2020",
+    "volume": "11",
+    "issue": "1",
+    "pages": "196",
+    "url": "https://www.inderscience.com/offers.php?id=105533",
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2020.pdf"
+  },
+  {
+    "title": "Stochastic performance model for web server capacity planning in fog computing",
+    "authors": ["Paulo Pereira", "Jean Araujo", "Mateus Torquato", "Carlos Melo", "Jamilson Dantas"],
+    "journal": "Journal of Supercomputing",
+    "date": "2020",
+    "volume": "76",
+    "issue": "1",
+    "pages": "9533-9557",
+    "url": "https://link.springer.com/article/10.1007/s11227-020-03218-w",
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2020-2.pdf"
+  },
+  {
+    "title": "Models to evaluate service Provisioning over Cloud Computing Environments-A Blockchain-As-A-Service case study.",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Ronierison Maciel", "Paulo Pereira", "Paulo Maciel"],
+    "journal": "Revista de Informática Teórica e Aplicada",
+    "date": "2019",
+    "volume": "26",
+    "issue": "1",
+    "pages": "65-74",
+    "url": "https://seer.ufrgs.br/rita/article/view/RITA_VOL26_NR3_65",
+    "pdf": "assets/publications/pdf/journals/journal-rita-2019.pdf"
+  },
+  {
+    "title": "Investigation of Software Aging Effects on the OpenStack Cloud Computing Platform",
+    "authors": ["Carlos Melo", "Jean Araujo", "Vandi Lira Neto"],
+    "journal": "Journal of Software",
+    "date": "2017",
+    "volume": "12",
+    "issue": "1",
+    "pages": "19",
+    "url": "https://www.jsoftware.us/vol12/235-JSW15197.pdf",
+    "pdf": "assets/publications/pdf/journals/journal-jsw-2017.pdf"
+  }
+]
