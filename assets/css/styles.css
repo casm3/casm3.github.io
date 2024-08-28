@@ -194,13 +194,99 @@ span {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
 }
-
-.pdf-link {
-  color: #007bff;
-  text-decoration: none;
-  margin-left: 5px;
+/* Estilos para os itens de publicação */
+/* Estilo dos itens de publicação */
+.publication-item {
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: left;
+  border-bottom: 0; /* Remove a linha separadora */
+  list-style-type: none; /* Remove os marcadores da lista */
 }
 
-.pdf-link:hover {
-  text-decoration: underline;
+/* Estilo do título do artigo */
+.publication-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+  text-decoration: none;
+  display: block;
+}
+
+/* Estilo dos autores */
+.publication-authors {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.publication-authors span {
+  text-decoration: none;
+}
+
+/* Container dos botões */
+.publication-buttons {
+  margin-top: 1em;
+  display: flex;
+  gap: 0.5em; /* Espaçamento entre os botões */
+  align-items: center;
+}
+
+/* Estilo dos botões */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: center; /* Garante o alinhamento do texto dentro do botão */
+}
+
+/* Estilo do botão PDF */
+.pdf-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Ícone do PDF */
+.pdf-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url('/assets/img/pdf-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* Estilo do botão Abstract */
+.abstract-button {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-align: center;
+  border-radius: 0.3em; /* Ajusta o arredondamento do botão */
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Adicionalmente, ajuste para que os botões se ajustem corretamente em telas menores */
+@media (max-width: 880px) {
+  .publication-buttons {
+      flex-direction: column;
+  }
+}
+
+/* Estilo para o nome em negrito */
+.bold-author {
+  font-weight: bold;
 }
