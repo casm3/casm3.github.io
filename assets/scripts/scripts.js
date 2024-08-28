@@ -5,86 +5,66 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(`/assets/publications/${section}.json`)
             .then(response => response.json())
             .then(data => {
-                const list = document.getElementById(section);
+                const container = document.getElementById(section);
                 if (data && data.length > 0) {
                     data.forEach(publication => {
-                        const listItem = document.createElement('li');
-                        listItem.classList.add('publication-item');
+                        const item = document.createElement('li');
+                        item.className = 'publication-item';
                         
-                        // Title Link
-                        const titleLink = document.createElement('a');
-                        titleLink.href = publication.url;
-                        titleLink.target = '_blank';
-                        titleLink.textContent = publication.title;
-                        titleLink.classList.add('publication-title');
+                        const title = document.createElement('a');
+                        title.href = publication.url;
+                        title.target = '_blank';
+                        title.textContent = publication.title;
+                        title.className = 'publication-title';
 
-                        // Authors
-                        const authorsList = document.createElement('p');
-                        authorsList.classList.add('publication-authors');
+                        const authors = document.createElement('div');
+                        authors.className = 'publication-authors';
+                        authors.innerHTML = publication.authors.map(author => 
+                            author === "Carlos Melo" ? `<span class="bold-author">${author}</span>` : author
+                        ).join(', ');
 
-                        // Process authors
-                        publication.authors.forEach((author, index) => {
-                            const authorSpan = document.createElement('span');
-                            if (author === "Carlos Melo") {
-                                authorSpan.classList.add('bold-author');
+                        const abstractButton = document.createElement('button');
+                        abstractButton.className = 'abstract-button';
+                        abstractButton.textContent = 'Abstract';
+                        abstractButton.onclick = () => {
+                            const content = item.querySelector('.abstract-content');
+                            if (content.style.display === 'none') {
+                                content.style.display = 'block';
+                                abstractButton.textContent = 'Hide Abstract';
+                            } else {
+                                content.style.display = 'none';
+                                abstractButton.textContent = 'Abstract';
                             }
-                            authorSpan.textContent = author;
-                            authorsList.appendChild(authorSpan);
-                            if (index < publication.authors.length - 1) {
-                                authorsList.appendChild(document.createTextNode(', '));
-                            }
-                        });
+                        };
 
-                        // Buttons
-                        const buttonsDiv = document.createElement('div');
-                        buttonsDiv.classList.add('publication-buttons');
+                        const pdfButton = document.createElement('a');
+                        pdfButton.href = publication.pdf;
+                        pdfButton.download = publication.title;
+                        pdfButton.className = 'pdf-button';
+                        pdfButton.innerHTML = '<img src="assets/img/pdf-icon.png" alt="PDF Icon">';
 
-                        // Abstract Button
-                        if (publication.abstractUrl) {
-                            const abstractButton = document.createElement('a');
-                            abstractButton.href = publication.abstractUrl;
-                            abstractButton.textContent = 'Abstract';
-                            abstractButton.classList.add('btn', 'abstract-button');
-                            abstractButton.target = '_blank';
-                            buttonsDiv.appendChild(abstractButton);
-                        }
+                        const abstractContent = document.createElement('div');
+                        abstractContent.className = 'abstract-content';
+                        abstractContent.textContent = publication.abstract || "No abstract available.";
 
-                        // PDF Button
-                        if (publication.pdf) {
-                            const pdfButton = document.createElement('a');
-                            pdfButton.href = publication.pdf;
-                            pdfButton.classList.add('btn', 'pdf-button');
-                            pdfButton.download = publication.title;
-                            pdfButton.target = '_blank';
+                        const buttonsContainer = document.createElement('div');
+                        buttonsContainer.className = 'publication-buttons';
+                        buttonsContainer.appendChild(abstractButton);
+                        buttonsContainer.appendChild(pdfButton);
 
-                            // Add PDF icon
-                            const pdfIcon = document.createElement('span');
-                            pdfIcon.classList.add('pdf-icon');
-                            pdfButton.appendChild(pdfIcon);
+                        item.appendChild(title);
+                        item.appendChild(authors);
+                        item.appendChild(buttonsContainer);
+                        item.appendChild(abstractContent);
 
-                            buttonsDiv.appendChild(pdfButton);
-                        }
-
-                        // Append title, authors, and buttons to list item
-                        listItem.appendChild(titleLink);
-                        listItem.appendChild(authorsList);
-                        listItem.appendChild(buttonsDiv);
-
-                        // Append list item to list
-                        list.appendChild(listItem);
+                        container.appendChild(item);
                     });
                 } else {
                     const noPublications = document.createElement('p');
                     noPublications.textContent = "No publications available.";
-                    list.appendChild(noPublications);
+                    container.appendChild(noPublications);
                 }
             })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-                const list = document.getElementById(section);
-                const errorMessage = document.createElement('p');
-                errorMessage.textContent = "Error loading publications.";
-                list.appendChild(errorMessage);
-            });
+            .catch(error => console.error('Error fetching data:', error));
     });
 });

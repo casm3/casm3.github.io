@@ -1,15 +1,4 @@
-.intro {
-  text-align: left;
-  margin: auto;
-  width: 60%;
-}
-
-.skills {
-  text-align: left;
-  margin: auto;
-  width: 60%;
-}
-
+/* Estilos gerais */
 body {
   color: #40514E;
   font-family: 'Merriweather', serif;
@@ -70,13 +59,8 @@ p {
     line-height: 2;
     font-size: 1.2rem;
   }
-  .intro{
+  .intro, .skills {
     margin: auto;
-    width: 100%;
-  }
-  .skills {
-    margin: 30px auto 100px auto;
-    text-align: left;
     width: 100%;
   }
 }
@@ -93,7 +77,7 @@ p {
   left: 300px;
 }
 
-.middle-container{
+.middle-container {
   margin: 100px 0;
 }
 
@@ -103,32 +87,21 @@ p {
   top: 20px;
 }
 
-.intro{
-  margin: auto;
-  width: 60%;
-}
-
-hr{
+hr {
   margin: 100px auto;
   border-color: #EAF6F6;
   border-style: none;
   border-top-style: dotted;
   border-width: 10px;
-  width: 4%
+  width: 4%;
 }
 
-.skills {
-  margin: 30px auto 100px auto;
-  text-align: left;
-  width: 60%;
-}
-
-.code-img{
+.code-img {
   float: left;
   margin-right: 30px;
 }
 
-.cloud-img{
+.cloud-img {
   float: right;
   margin-left: 30px;
 }
@@ -151,12 +124,12 @@ span {
   text-decoration: underline;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
 }
 
-.footer-link{
+.footer-link {
   color: #1b2021;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -168,7 +141,7 @@ span {
   margin-left: 30px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #EAF6F6;
 }
 
@@ -180,22 +153,22 @@ span {
   line-height: 2;
 }
 
-.nav-brand:hover{
+.nav-brand:hover {
   color: #EAF6F6;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: #EAF6F6;
   padding: 20px 0;
 }
 
-.rights{
+.rights {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
 }
+
 /* Estilos para os itens de publicação */
-/* Estilo dos itens de publicação */
 .publication-item {
   margin-bottom: 2em;
   padding: 1em;
@@ -204,7 +177,6 @@ span {
   list-style-type: none; /* Remove os marcadores da lista */
 }
 
-/* Estilo do título do artigo */
 .publication-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -213,7 +185,6 @@ span {
   display: block;
 }
 
-/* Estilo dos autores */
 .publication-authors {
   font-size: 1rem;
   color: #555;
@@ -221,11 +192,10 @@ span {
   margin-bottom: 0.5em;
 }
 
-.publication-authors span {
-  text-decoration: none;
+.bold-author {
+  font-weight: bold;
 }
 
-/* Container dos botões */
 .publication-buttons {
   margin-top: 1em;
   display: flex;
@@ -233,46 +203,42 @@ span {
   align-items: center;
 }
 
-/* Estilo dos botões */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5em 1em;
-  border-radius: 0.3em;
+.abstract-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 8px;
   text-decoration: none;
-  color: #fff;
-  font-size: 0.9rem;
+  margin-left: 10px;
   cursor: pointer;
-  text-align: center; /* Garante o alinhamento do texto dentro do botão */
-}
-
-/* Estilo do botão PDF */
-.pdf-button {
-  background-color: transparent;
   border: none;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
 }
 
-/* Ícone do PDF */
-.pdf-icon {
+.pdf-button {
+  display: inline-block;
+  background: url('/assets/img/pdf-icon.png') no-repeat center;
+  background-size: 24px 24px;
   width: 24px;
   height: 24px;
-  background-image: url('/assets/img/pdf-icon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
+  border: none;
+  cursor: pointer;
 }
 
-/* Estilo do botão Abstract */
-.abstract-button {
-  background-color: #6c757d;
-  color: #fff;
-  padding: 0.5em 1em;
-  text-align: center;
-  border-radius: 0.3em; /* Ajusta o arredondamento do botão */
+.pdf-button img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.abstract-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.abstract-content.visible {
+  display: block;
 }
 
 .btn:hover {
@@ -282,11 +248,6 @@ span {
 /* Adicionalmente, ajuste para que os botões se ajustem corretamente em telas menores */
 @media (max-width: 880px) {
   .publication-buttons {
-      flex-direction: column;
+    flex-direction: column;
   }
-}
-
-/* Estilo para o nome em negrito */
-.bold-author {
-  font-weight: bold;
 }

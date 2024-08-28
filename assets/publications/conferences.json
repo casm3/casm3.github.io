@@ -42,7 +42,8 @@
     "date": "2024",
     "location": "Paris, France",
     "url": "https://edas.info/web/ieeeiscc2024/index.html",
-    "pdf": "assets/publications/pdf/conferences/conference-iscc-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-iscc-2024.pdf",
+    "abstract": "Hyperledger Fabric stands as a leading framework for permissioned block-chain systems, ensuring data security and audit-ability for enterprise applications. As applications on this platform grow, understanding its complex configuration concerning various block-chain parameters becomes vital. These configurations significantly affect the system’s performance and cost. In this research, we introduce a Stochastic Petri Net (SPN) model to analyze Hyper-ledger Fabric’s performance, considering variations in block-chain parameters, computational resources, and transaction rates. We provide case studies to validate the utility of our model, aiding block-chain administrators in determining optimal configurations for their applications. A key observation from our model highlights the block size’s role in system response time. We noted an increased mean response time, between 1 to 25 seconds, due to variations in transaction arrival rates."
   },
   {
     "title": "Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm",
