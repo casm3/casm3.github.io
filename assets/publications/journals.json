@@ -1,7 +1,7 @@
 [
   {
     "title": "A comprehensive hyperledger fabric performance evaluation based on resources capacity planning",
-    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Sila", "André Soares"],
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "André Soares"],
     "journal": "Cluster Computing",
     "date": "2024",
     "volume": "1",
@@ -34,7 +34,7 @@
   },
   {
     "title": "Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing",
-    "authors": ["Iure Fé", "Rubens Matos", "Jamilson Dantas", "Carlos Melo", "Tuan Anh Nguyen", "Dugki Min", "Eunmi Choi", "Francisco Airton Sila", "Paulo Maciel"],
+    "authors": ["Iure Fé", "Rubens Matos", "Jamilson Dantas", "Carlos Melo", "Tuan Anh Nguyen", "Dugki Min", "Eunmi Choi", "Francisco Airton Silva", "Paulo Maciel"],
     "journal": "Sensors",
     "date": "2022",
     "volume": "22",

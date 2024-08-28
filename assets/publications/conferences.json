@@ -1,137 +1,147 @@
 [
-    {
-      "title": "The Mercury Environment: A modeling tool for performance and dependability evaluation",
-      "authors": ["Thiago Pinheiro", "Danilo Oliveira", "Rubens Matos", "Bruno Silva", "Paulo Pereira", "Carlos Melo", "Felipe Oliveira", "Eduardo Tavares", "Jamilson Dantas", "Paulo Maciel"],
-      "event": "10th International Workshop on the Reliability of Intelligent Environments (WoRIE 2021)",
-      "date": "June 21 – 24, 2021",
-      "location": "Dubai, United Arab Emirates",
-      "url": "https://www.ugr.es/~worie/2021/home",
-      "pdf": "https://www.example.com/mercury_environment.pdf"
-    },
-    {
-      "title": "Dependability and Sensitivity Analysis in Dense Data Centers Networks",
-      "authors": ["Kadna Camboim", "Jean Araujo", "Carlos Melo", "Paulo Maciel", "Fernanda Alencar"],
-      "event": "The 16th Iberian Conference on Information Systems and Technologies (CISTI 2021)",
-      "date": "June 23 – 26, 2021",
-      "location": "Chaves, Portugal",
-      "url": "https://ieeexplore.ieee.org/document/9476627",
-      "pdf": "https://www.example.com/dense_data_centers.pdf"
-    },
-    {
-      "title": "UNAME Tool: Automatic Generation of Computer Resources Monitoring Scripts",
-      "authors": ["Jean Araujo", "Cezar Filho", "Carlos Melo"],
-      "event": "The 16th Iberian Conference on Information Systems and Technologies (CISTI 2021)",
-      "date": "June 23 – 26, 2021",
-      "location": "Chaves, Portugal",
-      "url": "https://ieeexplore.ieee.org/document/9476223",
-      "pdf": "https://www.example.com/uname_tool.pdf"
-    },
-    {
-      "title": "Dependability and Sustainability Evaluation of Data Center Electrical Architectures",
-      "authors": ["Kadna Camboim", "João Ferreira", "Jean Araujo", "Carlos Melo", "Paulo Maciel", "Fernanda Alencar"],
-      "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
-      "date": "April 15 – May 15, 2021",
-      "location": "Vancouver, Canada",
-      "url": "https://ieeexplore.ieee.org/document/9447132",
-      "pdf": "https://www.example.com/data_center_evaluation.pdf"
-    },
-    {
-      "title": "Impact Evaluation of DDoS Attacks Using IoT Devices",
-      "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Paulo Pereira", "Jamilson Dantas", "Júlio Mendonça", "Paulo Maciel"],
-      "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
-      "date": "April 15 – May 15, 2021",
-      "location": "Vancouver, Canada",
-      "url": "https://ieeexplore.ieee.org/document/9447145",
-      "pdf": "https://www.example.com/ddos_iot.pdf"
-    },
-    {
-      "title": "A Software Maintenance Methodology: An Approach Applied to Software Aging",
-      "authors": ["Jean Araujo", "Carlos Melo", "Felipe Oliveira", "Paulo Pereira", "Rubens Matos"],
-      "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
-      "date": "April 15 – May 15, 2021",
-      "location": "Vancouver, Canada",
-      "url": "https://ieeexplore.ieee.org/document/9447082",
-      "pdf": "https://www.example.com/software_maintenance.pdf"
-    },
-    {
-      "title": "Availability Evaluation and Maintenance Policy of Data Center Infrastructure",
-      "authors": ["Kadna Camboim", "Carlos Melo", "Jean Araujo", "Fernanda Alencar"],
-      "event": "Anais Estendidos do X Simpósio Brasileiro de Engenharia de Sistemas Computacionais",
-      "date": "November 2020",
-      "location": "SBC",
-      "url": "https://sol.sbc.org.br/index.php/sbesc_estendido/article/view/13113",
-      "pdf": "https://www.example.com/availability_evaluation.pdf"
-    },
-    {
-      "title": "Blockchain provisioning over private cloud computing environments: Availability modeling and cost requirements",
-      "authors": ["Carlos Melo", "Jamilson Dantas", "Ronierison Maciel", "Paulo Pereira", "Eder Quesado", "Paulo Maciel"],
-      "event": "The 8th International Conference on Cloud Networking (CloudNet)",
-      "date": "November 4-6, 2019",
-      "location": "Coimbra, Portugal",
-      "url": "https://ieeexplore.ieee.org/abstract/document/9064125/",
-      "pdf": "https://www.example.com/blockchain_provisioning.pdf"
-    },
-    {
-      "title": "Sensitivity Analysis in a BRT System",
-      "authors": ["Renata Dantas", "Jamilson Dantas", "Carlos Melo", "Paulo Maciel"],
-      "event": "The 13th IEEE International Systems Conference (SysCon)",
-      "date": "April 8-11, 2019",
-      "location": "Orlando, USA",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8836823",
-      "pdf": "https://www.example.com/sensitivity_analysis.pdf"
-    },
-    {
-      "title": "Impact Assessment of Multi-threats in Computer Systems Using Attack Tree Modeling",
-      "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Jamilson Dantas", "Paulo Maciel"],
-      "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
-      "date": "October 7-10, 2018",
-      "location": "Myiazaki, Japan",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
-      "pdf": "https://www.example.com/multi_threats.pdf"
-    },
-    {
-      "title": "Evaluation of Encoding and Network Aspects on Video Streaming Performance: A Modeling and Experimental Approach",
-      "authors": ["Jamilson Dantas", "Rubens Matos", "Carlos Melo", "Jean Araujo", "João Ferreira", "Paulo Maciel"],
-      "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
-      "date": "October 7-10, 2018",
-      "location": "Myiazaki, Japan",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
-      "pdf": "https://www.example.com/video_streaming.pdf"
-    },
-    {
-      "title": "Dependability Evaluation of a Blockchain-as-a-Service Environment",
-      "authors": ["Carlos Melo", "Jamilson Dantas", "Danilo Oliveira", "Iure Fé", "Rubens Matos", "Renata Dantas", "Ronierison Maciel", "Paulo Maciel"],
-      "event": "IEEE Symposium on Computers and Communications (ISCC’2018)",
-      "date": "June 25-28, 2018",
-      "location": "Natal, Brasil",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8538752/",
-      "pdf": "https://www.example.com/blockchain_service.pdf"
-    },
-    {
-      "title": "Impact of a DDoS Attack on Computer Systems: An Approach Based on an Attack Tree Model",
-      "authors": ["Ronierison Maciel", "Jean Araujo", "Jamilson Dantas", "Carlos Melo", "Erico Guedes", "Paulo Maciel"],
-      "event": "SysCon 2018, 12th Annual IEEE International Systems Conference",
-      "date": "April 23-26, 2018",
-      "location": "Vancouver, Canadá",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8369611/",
-      "pdf": "https://www.example.com/ddos_attack.pdf"
-    },
-    {
-      "title": "A Performability Model for the BRT System",
-      "authors": ["Renata Pedrosa", "Jamilson Dantas", "Gabriel Alves", "Carlos Melo", "Paulo Maciel"],
-      "event": "SysCon 2018, 12th Annual IEEE International Systems Conference",
-      "date": "April 23-26, 2018",
-      "location": "Vancouver, Canadá",
-      "url": "https://ieeexplore.ieee.org/abstract/document/8369608/",
-      "pdf": "https://www.example.com/brt_system.pdf"
-    },
-    {
-      "title": "Availability Models for Synchronization Server Infrastructure",
-      "authors": ["Carlos Melo", "Jamilson Dantas", "Jean Araújo", "Paulo Maciel", "Rodrigo Branchini", "Luiz Kawakami"],
-      "event": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
-      "date": "October 9-12, 2016",
-      "location": "Budapest, Hungary",
-      "url": "https://ieeexplore.ieee.org/abstract/document/7844802",
-      "pdf": "https://www.example.com/synchronization_server.pdf"
-    }
-  ]
+  {
+    "title": "Availability Modeling for Blockchain Provisioning in Private Clouds",
+    "authors": ["Jamilson Dantas", "Lance Fiondella", "Paulo Maciel", "Carlos Melo"],
+    "event": "The 29th ISSAT International Conference on Reliability & Quality in Design",
+    "date": "2024",
+    "location": "Miami, United States of America",
+    "url": "https://www.issatconferences.org/Abstracts/RQD/Content_RQD/content2024/17.html",
+    "pdf": "assets/publications/pdf/conferences/conference-issat-2024.pdf"
+  },
+  {
+    "title": "Modelagem e Avaliação de Desempenho da Hyperledger Fabric: Uma análise baseada no Fluxo de Transações e no Impacto de Políticas de Endossamento",
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "Ericksulino Moura", "Iure Fé", "André Soares"],
+    "event": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC 2024)",
+    "date": "2024",
+    "location": "Niterói, Brazil",
+    "url": "https://sol.sbc.org.br/index.php/sbrc/article/view/29841",
+    "pdf": "assets/publications/pdf/conferences/conference-sbrc-2024.pdf"
+  },
+  {
+    "title": "A Blockchain Review based on the Scalability Trilemma",
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "Iure Fé", "André Soares"],
+    "event": "The 19th Iberian Conference on Information Systems and Technologies (CISTI 2024)",
+    "date": "2024",
+    "location": "Salamanca, Spain",
+    "url": "https://itmasoc.org/cisti2024/modules/request.php?module=oc_program&action=program.php&p=program",
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2024.pdf"
+  },
+  {
+    "title": "Uma ferramenta de avaliação de desempenho para plataforma Blockchain Hyperledger Fabric: HLF-PET",
+    "authors": ["Ericksulino Moura", "Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "André Soares"],
+    "event": "Congresso da Sociedade Brasileira de Computação (CSBC 2024)",
+    "date": "2024",
+    "location": "Brasília, Brazil",
+    "url": "https://sol.sbc.org.br/index.php/cblockchain/article/view/29599",
+    "pdf": "assets/publications/pdf/conferences/conference-csbc-2024.pdf"
+  },
+  {
+    "title": "Performance Modeling and Evaluation of Hyperledger Fabric: An Analysis Based on Transaction Flow and Endorsement Policies",
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "André Soares"],
+    "event": "29th IEEE Symposium on Computers and Communications (ISCC, 2024)",
+    "date": "2024",
+    "location": "Paris, France",
+    "url": "https://edas.info/web/ieeeiscc2024/index.html",
+    "pdf": "assets/publications/pdf/conferences/conference-iscc-2024.pdf",
+    "abstract": "Hyperledger Fabric stands as a leading framework for permissioned block-chain systems, ensuring data security and audit-ability for enterprise applications. As applications on this platform grow, understanding its complex configuration concerning various block-chain parameters becomes vital. These configurations significantly affect the system’s performance and cost. In this research, we introduce a Stochastic Petri Net (SPN) model to analyze Hyper-ledger Fabric’s performance, considering variations in block-chain parameters, computational resources, and transaction rates. We provide case studies to validate the utility of our model, aiding block-chain administrators in determining optimal configurations for their applications. A key observation from our model highlights the block size’s role in system response time. We noted an increased mean response time, between 1 to 25 seconds, due to variations in transaction arrival rates."
+  },
+  {
+    "title": "Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm",
+    "authors": ["Carlos Melo", "Glauber Gonçalves", "Francisco Airton Silva", "Leonel Feitosa", "Iure Fé", "André Soares", "Eunmi Choi", "Tuan Anh Nguyen", "Dugki Min"],
+    "event": "IEEE Network Operations and Management Symposium (NOMS, 2024)",
+    "date": "2024",
+    "location": "Seoul, South Korea",
+    "url": "https://ieeexplore.ieee.org/document/10575284/",
+    "pdf": "assets/publications/pdf/conferences/conference-noms-2024.pdf"
+  },
+  {
+    "title": "A Software Maintenance Methodology: An Approach Applied to Software Aging",
+    "authors": ["Jean Araujo", "Carlos Melo", "Felipe Oliveira", "Paulo Pereira", "Rubens Matos"],
+    "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
+    "date": "April 15 – May 15, 2021",
+    "location": "Vancouver, Canada",
+    "url": "https://ieeexplore.ieee.org/document/9447082",
+    "pdf": "https://www.example.com/software_maintenance.pdf"
+  },
+  {
+    "title": "Availability Evaluation and Maintenance Policy of Data Center Infrastructure",
+    "authors": ["Kadna Camboim", "Carlos Melo", "Jean Araujo", "Fernanda Alencar"],
+    "event": "Anais Estendidos do X Simpósio Brasileiro de Engenharia de Sistemas Computacionais",
+    "date": "November 2020",
+    "location": "SBC",
+    "url": "https://sol.sbc.org.br/index.php/sbesc_estendido/article/view/13113",
+    "pdf": "https://www.example.com/availability_evaluation.pdf"
+  },
+  {
+    "title": "Blockchain provisioning over private cloud computing environments: Availability modeling and cost requirements",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Ronierison Maciel", "Paulo Pereira", "Eder Quesado", "Paulo Maciel"],
+    "event": "The 8th International Conference on Cloud Networking (CloudNet)",
+    "date": "November 4-6, 2019",
+    "location": "Coimbra, Portugal",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9064125/",
+    "pdf": "https://www.example.com/blockchain_provisioning.pdf"
+  },
+  {
+    "title": "Sensitivity Analysis in a BRT System",
+    "authors": ["Renata Dantas", "Jamilson Dantas", "Carlos Melo", "Paulo Maciel"],
+    "event": "The 13th IEEE International Systems Conference (SysCon)",
+    "date": "April 8-11, 2019",
+    "location": "Orlando, USA",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8836823",
+    "pdf": "https://www.example.com/sensitivity_analysis.pdf"
+  },
+  {
+    "title": "Impact Assessment of Multi-threats in Computer Systems Using Attack Tree Modeling",
+    "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Jamilson Dantas", "Paulo Maciel"],
+    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "date": "October 7-10, 2018",
+    "location": "Myiazaki, Japan",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
+    "pdf": "https://www.example.com/multi_threats.pdf"
+  },
+  {
+    "title": "Evaluation of Encoding and Network Aspects on Video Streaming Performance: A Modeling and Experimental Approach",
+    "authors": ["Jamilson Dantas", "Rubens Matos", "Carlos Melo", "Jean Araujo", "João Ferreira", "Paulo Maciel"],
+    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "date": "October 7-10, 2018",
+    "location": "Myiazaki, Japan",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
+    "pdf": "https://www.example.com/video_streaming.pdf"
+  },
+  {
+    "title": "Dependability Evaluation of a Blockchain-as-a-Service Environment",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Danilo Oliveira", "Iure Fé", "Rubens Matos", "Renata Dantas", "Ronierison Maciel", "Paulo Maciel"],
+    "event": "IEEE Symposium on Computers and Communications (ISCC’2018)",
+    "date": "June 25-28, 2018",
+    "location": "Natal, Brasil",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8538752/",
+    "pdf": "https://www.example.com/blockchain_service.pdf"
+  },
+  {
+    "title": "Impact of a DDoS Attack on Computer Systems: An Approach Based on an Attack Tree Model",
+    "authors": ["Ronierison Maciel", "Jean Araujo", "Jamilson Dantas", "Carlos Melo", "Erico Guedes", "Paulo Maciel"],
+    "event": "SysCon 2018, 12th Annual IEEE International Systems Conference",
+    "date": "April 23-26, 2018",
+    "location": "Vancouver, Canadá",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8369611/",
+    "pdf": "https://www.example.com/ddos_attack.pdf"
+  },
+  {
+    "title": "A Performability Model for the BRT System",
+    "authors": ["Renata Pedrosa", "Jamilson Dantas", "Gabriel Alves", "Carlos Melo", "Paulo Maciel"],
+    "event": "SysCon 2018, 12th Annual IEEE International Systems Conference",
+    "date": "April 23-26, 2018",
+    "location": "Vancouver, Canadá",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8369608/",
+    "pdf": "https://www.example.com/brt_system.pdf"
+  },
+  {
+    "title": "Availability Models for Synchronization Server Infrastructure",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Jean Araújo", "Paulo Maciel", "Rodrigo Branchini", "Luiz Kawakami"],
+    "event": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "date": "October 9-12, 2016",
+    "location": "Budapest, Hungary",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7844802",
+    "pdf": "https://www.example.com/synchronization_server.pdf"
+  }
+]
