@@ -170,11 +170,12 @@ span {
 
 /* Estilos para os itens de publicação */
 .publication-item {
-  margin-bottom: 2em;
+  margin-bottom: 0.1px;
   padding: 1em;
   text-align: left;
-  border-bottom: 0; /* Remove a linha separadora */
-  list-style-type: none; /* Remove os marcadores da lista */
+  border-bottom: 0;
+  list-style-type: none;
+  padding-left: 0; /* Remove o preenchimento à esquerda */
 }
 
 .publication-title {
@@ -183,13 +184,13 @@ span {
   color: #66BFBF;
   text-decoration: none;
   display: block;
+  margin-bottom: 5px;
 }
 
 .publication-authors {
   font-size: 1rem;
   color: #555;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
 }
 
 .bold-author {
@@ -197,23 +198,29 @@ span {
 }
 
 .publication-buttons {
-  margin-top: 1em;
+  margin-top: 0.5em;
   display: flex;
-  gap: 0.5em; /* Espaçamento entre os botões */
+  gap: 0.5em;
   align-items: center;
+  padding-left: 0; /* Remove qualquer preenchimento à esquerda */
 }
 
 .abstract-button {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 4px 8px;
   font-size: 1rem;
   color: #ffffff;
   background-color: #007bff;
   border-radius: 8px;
   text-decoration: none;
-  margin-left: 10px;
+  margin: 0; /* Remove a margem do botão */
   cursor: pointer;
   border: none;
+}
+
+.abstract-button:hover {
+  background-color: #0056b3; /* Cor quando o mouse passa por cima */
+  color: #ffffff; /* Cor do texto (opcional, pode manter ou alterar) */
 }
 
 .pdf-button {
@@ -233,9 +240,12 @@ span {
 }
 
 .abstract-content {
-  display: none;
+  display: none; /* Garante que o abstract esteja oculto inicialmente */
   margin-top: 10px;
+  font-style: italic;
+  text-align: justify; /* Alinha o texto do abstract em justificado */
 }
+
 
 .abstract-content.visible {
   display: block;

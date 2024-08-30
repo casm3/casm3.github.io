@@ -8,7 +8,8 @@
     "issue": "1",
     "pages": "1",
     "url": "https://link.springer.com/article/10.1007/s10586-024-04591-4",
-    "pdf": "assets/publications/pdf/journals/journal-blockchain-2024.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-blockchain-2024.pdf",
+    "abstract": "Hyperledger Fabric is a platform for permissioned blockchain networks that enables secure and auditable distributed data storage for enterprise applications. There is a growing interest in applications based on this platform, but its use requires the configuration of different blockchain parameters. Various configurations impact the system’s non-functional qualities, especially performance and cost. In this article, we propose a Stochastic Petri Net to model the performance of the Hyperledger Fabric platform with different blockchain parameters, computer capacity, and transaction rates. We also present a set of case studies to demonstrate the feasibility of the proposed model. This model serves as a practical guide to help administrators of permissioned blockchain networks find the best performance for their applications. The proposed model allowed us to identify the block size that leads to a high mean response time (ranging from 1 to 25 seconds) caused by a change in the arrival rate."
   },
   {
     "title": "Performance and availability evaluation of the blockchain platform hyperledger fabric",
@@ -19,7 +20,8 @@
     "issue": "1",
     "pages": "12505-12527",
     "url": "https://link.springer.com/article/10.1007/s11227-022-04361-2",
-    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2022.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2022.pdf",
+    "abstract": "Through the blockchain-as-a-service paradigm, one can provide the infrastructure required to host blockchain-based applications regarding performance and dependability-related attributes. Many works evaluated issues and mitigated them to reach a high throughput or better downtime and availability indexes. However, to the best of our acknowledgment, studies regarding both characteristics are yet to be performed. This paper presents a performance evaluation of a private infrastructure hosting a blockchain-based application. As we monitored the system, we noticed some increase in resource consumption that may be associated with software aging issues on the hyperledger fabric platform or its basic components. Also, the impact of this resource increment on the probability of the system being operational has been evaluated. When consumption issues were considered, one of the transaction types increased the RAM consumption by almost 80% in less than 3 h, reducing the system availability to 98.17%. For scenarios without resource increment issues on the infrastructure, the availability reached 99.35%, with an annual downtime of 56.43 h."
   },
   {
     "title": "A survey on reliability and availability modeling of edge, fog, and cloud computing. Journal of Reliable Intelligent Environments",
@@ -30,7 +32,8 @@
     "issue": "1",
     "pages": "227-245",
     "url": "https://link.springer.com/article/10.1007/s40860-021-00154-1",
-    "pdf": "assets/publications/pdf/journals/journal-jorie-2022.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-jorie-2022.pdf",
+    "abstract": "During the past years, sending data to the cloud servers was a prominent trend, making the cloud computing paradigm dominate the technology landscape. However, the internet of things (IoT) is becoming a part of our daily environments, and it generates a large volume of data, which is creating uncontrollable delays. For the delay-sensitive and context-aware services, these uncontrollable delays may cause low reliability and availability for applications. To overcome these challenges, computing paradigms are moving from centralized cloud environments to the Edge of the networks. Several new computing paradigms, such as Edge and Fog computing, emerged to support delay-sensitive and context-aware services. By combining edge devices, fog servers, and cloud computing, companies can build a hierarchical IoT infrastructure, using Edge–Fog–Cloud orchestrated architecture to improve IoT environments’ performance, reliability, and availability. This paper presents a comprehensive survey on reliability and availability of Edge, Fog, and Cloud computing architectures. We first introduce and compare some related works about these paradigms and compare them to define the differences between Edge and Fog environments, since there is still some confusion about these terms. We also describe their taxonomy and how they link to each other. Finally, we draw some potential research directions that may help foster research efforts in this area."
   },
   {
     "title": "Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing",
@@ -41,7 +44,8 @@
     "issue": "1",
     "pages": "1221",
     "url": "https://www.mdpi.com/1424-8220/22/3/1221",
-    "pdf": "assets/publications/pdf/journals/journal-sensors-2022.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-sensors-2022.pdf",
+    "abstract": "Cloud computing has been widely adopted over the years by practitioners and companies with a variety of requirements. With a strong economic appeal, cloud computing makes possible the idea of computing as a utility, in which computing resources can be consumed and paid for with the same convenience as electricity. One of the main characteristics of cloud as a service is elasticity supported by auto-scaling capabilities. The auto-scaling cloud mechanism allows adjusting resources to meet multiple demands dynamically. The elasticity service is best represented in critical web trading and transaction systems that must satisfy a certain service level agreement (SLA), such as maximum response time limits for different types of inbound requests. Nevertheless, existing cloud infrastructures maintained by different cloud enterprises often offer different cloud service costs for equivalent SLAs upon several factors. The factors might be contract types, VM types, auto-scaling configuration parameters, and incoming workload demand. Identifying a combination of parameters that results in SLA compliance directly in the system is often sophisticated, while the manual analysis is prone to errors due to the huge number of possibilities. This paper proposes the modeling of auto-scaling mechanisms in a typical cloud infrastructure using a stochastic Petri net (SPN) and the employment of a well-established adaptive search metaheuristic (GRASP) to discover critical trade-offs between performance and cost in cloud services.The proposed SPN models enable cloud designers to estimate the metrics of cloud services in accordance with each required SLA such as the best configuration, cost, system response time, and throughput.The auto-scaling SPN model was extensively validated with 95% confidence against a real test-bed scenario with 18.000 samples. A case-study of cloud services was used to investigate the viability of this method and to evaluate the adoptability of the proposed auto-scaling model in practice. On the other hand, the proposed optimization algorithm enables the identification of economic system configuration and parameterization to satisfy required SLA and budget constraints. The adoption of the metaheuristic GRASP approach and the modeling of auto-scaling mechanisms in this work can help search for the optimized-quality solution and operational management for cloud services in practice."
   },
   {
     "title": "Cloud Infrastructure Planning: Models Considering an Optimization Method, Cost and Performance Requirements.",
@@ -52,7 +56,8 @@
     "issue": "4",
     "pages": "110247",
     "url": "https://www.inderscience.com/offer.php?id=132613",
-    "pdf": "assets/publications/pdf/journals/journal-ijguc-2023.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2023.pdf",
+    "abstract": "This paper proposes a methodology and models to support planning and selecting a cloud infrastructure according to availability, COA, performance and cost requirements. An optimisation model based on the GRASP metaheuristic is used to generate a cloud infrastructure with some physical machines and Virtual Machines - VMs configurations. Such a system is represented using an SPN model and closed-form equations to estimate cost and dependability metrics. The proposed method is applied in a case study of a video transcoding service hosted in a cloud environment. The case study demonstrates the selection of cloud infrastructures with the best performance and dependability metrics, considering the use of VP9, VP8 and H264 video codecs and different VM setups. The results show the best configuration choice considering six user profiles. The results also show the computation of the probability of finalising a set of video transcoding jobs by a given time t."
   },
   {
     "title": "Distributed application provisioning over Ethereum-based private and permissioned blockchain: availability modeling, capacity, and costs planning",
@@ -63,7 +68,8 @@
     "issue": "1",
     "pages": "9615-9641",
     "url": "https://link.springer.com/article/10.1007/s11227-020-03617-z",
-    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021.pdf",
+    "abstract": "Blockchain and cloud computing are two of the main topics related to the distributed computing paradigm, and in the last decade, they have seen exponential growth in their adoption. Cloud computing has long been established as the main mechanism to test, develop, and deliver new applications and services in a distributed manner across the World Wide Web. Large data centers host many services and store petabytes of user data. Infrastructure and services owners rule the access to data and may even be able to change contents and attest to its veracity. Blockchain is a step towards a future where the user’s data are considered safer, besides being public. Advances in blockchain-based technologies, now, support service provisioning over permissioned and private infrastructures. Therefore, organizations or groups of individuals may share information, service even if they do not trust each other, besides supporting infrastructure management tasks. This paper presents and evaluates models for assessing the availability and capacity-oriented availability of cloud computing infrastructures. It aims at running blockchain’s distributed applications based on the Ethereum blockchain platform and the required expenses to perform service delivery in public and private infrastructures. Most of the obtained results also apply to other blockchains-based platforms."
   },
   {
     "title": "A model-based approach for planning blockchain service provisioning",
@@ -74,7 +80,8 @@
     "issue": "1",
     "pages": "315-337",
     "url": "https://link.springer.com/article/10.1007/s00607-021-00956-4",
-    "pdf": "assets/publications/pdf/journals/journal-computing-2021.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-computing-2021.pdf",
+    "abstract": "Recently, the blockchain-as-a-service paradigm arose, and many works have evaluated the performance issues related to it. However, not as much has been done regarding Dependability attributes, which have ever been a crucial topic on service provisioning, let it be either public or private infrastructures. This paper presents the blockchain provisioning planning tool (BPPT), a framework to evaluate the availability, deployment, and maintenance costs of Hyperledger Fabric-based applications over private computational infrastructures. The BPPT uses continuous time markov chain (CTMC) and reliability block diagram (RBD) models as an evaluation method of Hyperledger Fabric’s environments and determines distributed applications’ deployment feasibility and endorsement policies related to the platform. We also present case studies that may help those interested in paradigm changes to decide whether they should migrate from old to new technology. Some of the obtained results pointed-out that the AND endorsement, which requires that all nodes sign the authenticity of a transaction, has the highest deployment and maintenance costs, as well as the lowest availability values due to operational requirements, already an OR endorsement, which needs that at least one available node signs the transaction, provides the best relationship between the evaluated metrics. The KooN endorsement (that requires that K out of N nodes signs a transaction authenticity) is a more general model that supports analyzing midterm configurations, besides the two extreme configurations, that is, to AND and OR arrangements."
   },
   {
     "title": "Analytical models for availability evaluation of edge and fog computing nodes",
@@ -85,7 +92,8 @@
     "issue": "1",
     "pages": "9905-9933",
     "url": "https://link.springer.com/article/10.1007/s11227-021-03672-0",
-    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021-2.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2021-2.pdf",
+    "abstract": "Although cloud computing environments increase availability, reliability, and performance, many emerging technologies demand latency-aware networks for real-time data processing. For instance, the Internet of Things environments are composed of many connected devices that generate data for applications, where many of them are latency-sensitive, such as facial recognition security systems in airports or train stations. To overcome the latency of the cloud infrastructure, researchers introduced the edge and fog computing paradigms in order to increase computing power between the cloud and devices. In this study, we propose analytical availability models; also, we evaluate the availability of physical edge and fog nodes running applications. To finish, we perform a capacity-oriented availability and a cost evaluation comparing edge and fog environments. Some of the results show that we can improve the availability from 2.96 number of nines to 5.93, by using our analytical models to plan the infrastructure. These models aim at supporting engineers and analysts to plan fault-tolerant edge and fog environments."
   },
   {
     "title": "Cloud infrastructure planning considering the impact of maintenance and self-healing routines over cost and dependability attributes",
@@ -96,7 +104,8 @@
     "issue": "1",
     "pages": "1",
     "url": "https://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijguc#:~:text=and%20self%2Dhealing-,routines,-over%20cost%20and",
-    "pdf": "assets/publications/pdf/journals/journal-ijguc-2021.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2021.pdf",
+    "abstract": "Cloud computing is the main trend regarding internet service provision. This paradigm, which emerged from distributed computing, gains more adherents every day. For those who provide or aim at providing a service or a private infrastructure, much has to be done, costs related to acquisition and implementation are common, and an alternative to reduce expenses is to outsource maintenance of resources. Outsourcing tends to be a better choice for those who provide small infrastructures than to pay some employees monthly to keep the service life cycle. This paper evaluates infrastructure reliability and the impact of outsourced maintenance over the availability of private infrastructures. Our baseline environments focus on blockchain as a service; however, by modelling both service and maintenance routines, this study can be applied to most cloud services. The maintenance routines evaluated by this paper encompass a set of service level agreements and some particularities related to reactive, preventive, and self-healing methods. The goal is to point out which one has the best cost-benefit for those with small infrastructures, but that still plans to provide services over the internet. Preventive and self-healing repair routines provided a better cost-benefit solution than traditional reactive maintenance routines, but this scenario may change according to the number of available resources that the service provider has."
   },
   {
     "title": "Performance evaluation in BRT systems: An analysis to predict the BRT systems planning",
@@ -107,7 +116,8 @@
     "issue": "3",
     "pages": "1141-1150",
     "url": "https://www.sciencedirect.com/science/article/abs/pii/S2213624X2100095X?via%3Dihub",
-    "pdf": "assets/publications/pdf/journals/journal-its-2020.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-its-2020.pdf",
+    "abstract": "Mobility issues may create various inconveniences in urban areas due to traffic light delays, traffic jams and acidents. Alternatives have been created to improve public transportation. One of them is the Bus rapid transit system (BRT), delivering convincing results from a cost-effective perspective; i.e., lower deployment costs and a greater number of passengers. This paper proposes a Stochastic Petri Net (SPN) model for performance evaluation of the BRT system, focusing on the mean system size, mean queue size, mean queue time and the probability that the user will miss the bus (discard probability). Scenarios based on the BRT system were created, improving a set of solutions being with a variation in headways and in the number of vehicles on the route. The results show that, from a management perspective, it is up to the decision maker to define which is the most important metric at a given moment and, thus, to define the start intervals, as well as the number of vehicles to have on the route. Under the perspective in study, the best scenario is presented with headways of 300s and 5 vehicles in the route, operating as the one that leads to lower waiting times for passengers."
   },
   {
     "title": "Models for hyper-converged cloud computing infrastructures planning",
@@ -118,7 +128,8 @@
     "issue": "1",
     "pages": "196",
     "url": "https://www.inderscience.com/offers.php?id=105533",
-    "pdf": "assets/publications/pdf/journals/journal-ijguc-2020.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-ijguc-2020.pdf",
+    "abstract": "The Data Centre concept has evolved, mainly due to the need to reduce expenses with the required physical space to store, provide and maintain large computational infrastructures. The Software-Defined Data Centre (SDDC) is a result of this evolution. Through SDDC, any service can be hosted by virtualising more reliable and easier-to-keep hardware resources. Nowadays, many services and resources can be provided in a single rack, or even a single machine, with similar availability, considering the deployment costs of silo-based environments. One of the ways to apply the SDDC into a data centre is through hyper-convergence. Among the main contributions of this paper are the behavioural models developed for availability and capacity-oriented availability evaluation of silo-based, converged and hyper-converged cloud computing infrastructures. The obtained results may help stakeholders to select between converged and hyper-converged environments, due to their similar availability but with the particularity of having lower deployment costs."
   },
   {
     "title": "Stochastic performance model for web server capacity planning in fog computing",
@@ -129,7 +140,8 @@
     "issue": "1",
     "pages": "9533-9557",
     "url": "https://link.springer.com/article/10.1007/s11227-020-03218-w",
-    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2020-2.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-supercomputing-2020-2.pdf",
+    "abstract": "Cloud computing is attractive mostly because it allows companies to increase and decrease available resources, which makes them seem limitless. Although cloud computing has many advantages, there are still several issues such as unpredictable latency and no mobility support. To overcome these problems, fog computing extends communication, storage, and computation toward the edge of network. Therefore, fog computing may support delay-sensitive applications, which means that the application latency from end users can be improved, and it also decreases energy consumption and traffic congestion. The demand for performance, availability, and reliability in computational systems grows every day. To optimize these features, it is necessary to improve the resource utilization such as CPU, network bandwidth, memory, and storage. Although fog computing extends the cloud computing resources and improves the quality of service, executing capacity planning is an effective approach to arranging a deterministic process for web-related activities, and it is one of the approaches of optimizing web performance. The goal of capacity planning in fog computing is preparing the system for an incoming workload, so we are able to optimize the system’s utilization while minimizing the total task execution time, which happens before sending the load toward the cloud environment or not sending it at all. In this paper, we evaluate the performance of a web server running in a fog environment. We also use QoS metrics to plan its capacity. We proposed performance closed-form equations extracted from a continuous-time Markov chain model of the system."
   },
   {
     "title": "Models to evaluate service Provisioning over Cloud Computing Environments-A Blockchain-As-A-Service case study.",
@@ -140,7 +152,8 @@
     "issue": "1",
     "pages": "65-74",
     "url": "https://seer.ufrgs.br/rita/article/view/RITA_VOL26_NR3_65",
-    "pdf": "assets/publications/pdf/journals/journal-rita-2019.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-rita-2019.pdf",
+    "abstract": "The strictness of the Service Level Agreements(SLAs)is mainly due to a set of constraints related to performance and dependability attributes, such as availability. This paper shows that system’s availability values may be improved by deploying services over a private environment, which may obtain better availability values with improved management, security, and control. However, how much a company needs to afford to keep this improved availability? As an additional activity, this paper compares the obtained availability values with the infrastructure deployment expenses and establishes a cost × benefit relationship. As for the system’s evaluation technique, we choose modeling; while for the service used to demonstrate the models’ feasibility, the blockchain-as-a-service was the selected one. This paper proposes and evaluate four different infrastructures hosting blockchains: (i) baseline; (ii) double redundant; (iii) triple redundant, and (iv) hyper-converged. The obtained results pointed out that the hyper-converged architecture had an advantage over a full triple redundant environment regarding availability and deployment cost."
   },
   {
     "title": "Investigation of Software Aging Effects on the OpenStack Cloud Computing Platform",
@@ -151,6 +164,7 @@
     "issue": "1",
     "pages": "19",
     "url": "https://www.jsoftware.us/vol12/235-JSW15197.pdf",
-    "pdf": "assets/publications/pdf/journals/journal-jsw-2017.pdf"
+    "pdf": "assets/publications/pdf/journals/journal-jsw-2017.pdf",
+    "abstract": "One of the most important goals for companies that provide cloud computing services is to maintain high availability on large computer systems. Therefore, to accomplish such objective it is necessary to determine the main causes and the main problems associated with it. Many of these problems are related with software failures, for instance software aging. Software aging is a degrading factor in systems, leading to software failures, poor performance and may result in system downtime. This paper investigates the software aging effects on the Openstack cloud computing platform. The environment was tested using a stressful workload, and monitored through Bash scripts that collects information about the utilization of hardware resources, as well as information about processes related to the platform. The results indicate software aging issues in the MySQL process; a growth on the memory consumption was detected, and a prediction analysis was also used to estimate the resources utilization in the future. "
   }
 ]
