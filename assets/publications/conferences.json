@@ -6,7 +6,8 @@
     "date": "2024",
     "location": "Miami, United States of America",
     "url": "https://www.issatconferences.org/Abstracts/RQD/Content_RQD/content2024/17.html",
-    "pdf": "assets/publications/pdf/conferences/conference-issat-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-issat-2024.pdf",
+    "abstract": "Blockchain technology has emerged, and many previous studies have assessed its performance issues. However, less attention has been paid to the dependability attributes, which have been a critical topic in service provisioning, considering public or private infrastructures. This paper introduces analytical models to assess the availability of private blockchain infrastructure for Hyperledger Fabric-based applications. Furthermore, a case study will be presented to demonstrate the feasibility of the proposed model, which may assist stakeholders in deciding whether to migrate from old to new technology. Some of the obtained results indicate that, unlike most conventional systems, general availability may decrease as new nodes are added to the environment. This phenomenon occurs due to the adopted endorsement policy, which determines the proportion of required nodes to sign the authenticity of a transaction."
   },
   {
     "title": "Modelagem e Avaliação de Desempenho da Hyperledger Fabric: Uma análise baseada no Fluxo de Transações e no Impacto de Políticas de Endossamento",
@@ -15,7 +16,8 @@
     "date": "2024",
     "location": "Niterói, Brazil",
     "url": "https://sol.sbc.org.br/index.php/sbrc/article/view/29841",
-    "pdf": "assets/publications/pdf/conferences/conference-sbrc-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-sbrc-2024.pdf",
+    "abstract": "Blockchain é um paradigma proveniente de conceitos como sistemas distribuídos, protocolos e segurança. Há debates sobre sua aplicação no provimento de serviços e da sua viabilidade em ambientes industriais, especialmente em relação ao seu desempenho. Em blockchains, tempos de resposta longos prejudicam a experiência do usuário, e o uso intensivo de recursos pode elevar os custos de provimento de serviço. Este artigo avalia o desempenho da Hyperledger Fabric (HLF), uma plataforma para blockchains permissionadas com foco em ambientes industriais, por meio de modelagem e experimentação. Os resultados indicam que o tamanho do bloco e a taxa de chegada comprometem vazão, latência e utilização no ambiente em mais de 100% e que múltiplos gateways podem reduzir em mais de 50% a latência."
   },
   {
     "title": "A Blockchain Review based on the Scalability Trilemma",
@@ -24,7 +26,8 @@
     "date": "2024",
     "location": "Salamanca, Spain",
     "url": "https://itmasoc.org/cisti2024/modules/request.php?module=oc_program&action=program.php&p=program",
-    "pdf": "assets/publications/pdf/conferences/conference-cisti-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2024.pdf",
+    "abstract": "Blockchain technology emerged from not-so-new concepts such as cryptography and distributed systems. However, are blockchain-based applications suitable to replace traditional distributed applications? Performance evaluation can help us to achieve an answer to this question. This paper assesses the current state-of-the-art performance evaluation in some of the most popular platforms that provide public, private, or cross-operation blockchain-based applications. We highlight key studies, technologies, and metrics focusing on three main research aspects: (i) Scalability, (ii) Security, and (iii) Interoperability. Some of the key obtained results point out that works regarding interoperability are an important gap in the blockchain performance field. Hyperledger Fabric and Ethereum are among the most prominent platforms, meaning that academics and industry need to explore other platforms. Finally, we discovered that measurement was the most used performance evaluation method, and it mainly focused on transaction latency and throughput."
   },
   {
     "title": "Uma ferramenta de avaliação de desempenho para plataforma Blockchain Hyperledger Fabric: HLF-PET",
@@ -33,7 +36,8 @@
     "date": "2024",
     "location": "Brasília, Brazil",
     "url": "https://sol.sbc.org.br/index.php/cblockchain/article/view/29599",
-    "pdf": "assets/publications/pdf/conferences/conference-csbc-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-csbc-2024.pdf",
+    "abstract": "Este artigo apresenta o HLF-PET, uma ferramenta de avaliação de desempenho para ambientes blockchain baseados em HLF. Nossa pesquisa centra-se na validação experimental da eficácia do HLF-PET, enviando carga de trabalho para a plataforma Hyperledger Fabric. O HLF-PET pode atingir uma alta taxa de transação e é flexível no envio de transações seguindo um modelo de distribuição de probabilidade. Além disso, o HLF-PET fornece dados de tempo para cada fase do fluxo de transação, o que permite aos administradores do sistema otimizar a alocação de recursos para a implantação de ambientes blockchain."
   },
   {
     "title": "Performance Modeling and Evaluation of Hyperledger Fabric: An Analysis Based on Transaction Flow and Endorsement Policies",
@@ -43,7 +47,7 @@
     "location": "Paris, France",
     "url": "https://edas.info/web/ieeeiscc2024/index.html",
     "pdf": "assets/publications/pdf/conferences/conference-iscc-2024.pdf",
-    "abstract": "Hyperledger Fabric stands as a leading framework for permissioned block-chain systems, ensuring data security and audit-ability for enterprise applications. As applications on this platform grow, understanding its complex configuration concerning various block-chain parameters becomes vital. These configurations significantly affect the system’s performance and cost. In this research, we introduce a Stochastic Petri Net (SPN) model to analyze Hyper-ledger Fabric’s performance, considering variations in block-chain parameters, computational resources, and transaction rates. We provide case studies to validate the utility of our model, aiding block-chain administrators in determining optimal configurations for their applications. A key observation from our model highlights the block size’s role in system response time. We noted an increased mean response time, between 1 to 25 seconds, due to variations in transaction arrival rates."
+    "abstract": "Hyperledger Fabric stands as a leading framework for permissioned blockchain systems, ensuring data security and audit-ability for enterprise applications. As applications on this platform grow, understanding its complex configuration concerning various block-chain parameters becomes vital. These configurations significantly affect the system’s performance and cost. In this research, we introduce a Stochastic Petri Net (SPN) model to analyze Hyper-ledger Fabric’s performance, considering variations in block-chain parameters, computational resources, and transaction rates. We provide case studies to validate the utility of our model, aiding block-chain administrators in determining optimal configurations for their applications. A key observation from our model highlights the block size’s role in system response time. We noted an increased mean response time, between 1 to 25 seconds, due to variations in transaction arrival rates."
   },
   {
     "title": "Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm",
@@ -52,7 +56,38 @@
     "date": "2024",
     "location": "Seoul, South Korea",
     "url": "https://ieeexplore.ieee.org/document/10575284/",
-    "pdf": "assets/publications/pdf/conferences/conference-noms-2024.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-noms-2024.pdf",
+    "abstract": "Hyperledger Fabric stands as a leading framework for permissioned block-chain systems, ensuring data security and audit-ability for enterprise applications. As applications on this platform grow, understanding its complex configuration concerning various block-chain parameters becomes vital. These configurations significantly affect the system’s performance and cost. In this research, we introduce a Stochastic Petri Net (SPN) model to analyze Hyper-ledger Fabric’s performance, considering variations in block-chain parameters, computational resources, and transaction rates. We provide case studies to validate the utility of our model, aiding block-chain administrators in determining optimal configurations for their applications. A key observation from our model highlights the block size’s role in system response time. We noted an increased mean response time, between 1 to 25 seconds, due to variations in transaction arrival rates."
+  },
+  {
+    "title": "Smart BRT: Requirements for the Implementation of a Smarter Transport System.",
+    "authors": ["Raquel Trajano", "Carlos Melo", "Andson Balieiro", "Jamilson Dantas"],
+    "event": "19th Iberian Conference on Information Systems and Technologies (CISTI, 2024)",
+    "date": "2024",
+    "location": "Salamanca, Spain",
+    "url": "https://itmasoc.org/cisti2024/modules/request.php?module=oc_program&action=summary.php&id=249",
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2024-2.pdf",
+    "abstract": "This paper proposes an infrastructure planning for Smart Bus Rapid Transit (BRT), focusing on network infrastructure requirements, and explores the essential elements for implementing a Smart BRT system. We discuss how network technologies, especially 5G and Wi-Fi, ensure continuous connectivity between buses, stations, and control centers. Moreover, we highlight the roles of Network Slicing and Edge Computing in managing data traffic and processing information. The article emphasizes that beyond adopting advanced technologies, the successful implementation of a Smart BRT demands strategic planning, public policies, and collaboration among various stakeholders, pointing towards a future where Smart BRT emerges as a promising solution for smart and sustainable urban mobility. Finally, we intend to comprehend and propose the scenarios considering a smart BRT and, in the future, could evaluate the system regarding some metrics and smart city criteria."
+  },
+  {
+    "title": "Modelo de Performabilidade para Sistemas de Transporte de Média Prioridade.",
+    "authors": ["Renata Dantas", "Joana Avelino", "Jamilson Dantas", "Paulo Maciel", "Carlos Melo"],
+    "event": "18th Iberian Conference on Information Systems and Technologies (CISTI, 2023)",
+    "date": "2023",
+    "location": "Aveiro, Portugal",
+    "url": "https://ieeexplore.ieee.org/document/10212006",
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2023.pdf",
+    "abstract": "The mobility of large urban centers has been affected by high vehicle traffic, which demands solutions from managers that can enable improvements in public transport. An alternative that has proven to be viable is the investment in medium Priority transport, such as BRT, VLT, among others, as they do not compete directly with other vehicles on the road, and operate on exclusive routes, although in competition with general traffic, with a differentiated fee collection method (before boarding), thus allowing greater confidence in the vehicle at its destination within a planned time interval, improving the cost-benefit ratio. Evaluating metrics such as performance, reliability and performability help in the planning, monitoring and optimization of STUMPs. This article presents hierarchical models, using CTMC modeling techniques, to evaluate metrics such as performance and performability. The results show that these models pointed out the peak intervals most likely to reach the destination in the shortest time, in addition to showing the probability of the vehicle being affected by the failure in each interval. It was also possible to establish bases for replicating the model in different scenarios to enable new comparative studies."
+  },
+  {
+    "title": "Modelagem e Avaliação de Desempenho de Blockchain Permissionada baseada em Hyperledger Fabric",
+    "authors": ["Carlos Melo", "Francisco Airton Silva", "Glauber Gonçalves", "André Soares"],
+    "event": "Colóquio em Blockchain e Web Descentralizada (CBLOCKCHAIN, 2023)",
+    "date": "2023",
+    "location": "João Pessoa, Brazil",
+    "url": "https://sol.sbc.org.br/index.php/cblockchain/article/view/25204",
+    "pdf": "assets/publications/pdf/conferences/conference-cblockchain-2023.pdf",
+    "abstract": "O Hyperledger Fabric é uma plataforma aberta para a criação e manutenção de redes baseadas em blockchains permissionadas que permite o armazenamento e acesso a dados distribuídos de forma segura e auditável. Porém, para um melhor aproveitamento de suas capacidades, é de suma importância que estejamos atentos aos fatores de infraestrutura e arquitetura da rede. Este artigo propõe o uso de uma Rede de Petri Estocástica (SPN) para avaliar o desempenho da plataforma Hyperledger Fabric com diferentes parâmetros. Além disso, apresentamos um estudo de caso capaz de auxiliar os administradores de ambientes permissionados a adequar suas configurações, visando um melhor desempenho para suas aplicações. Através do modelo proposto, é possível identificar o tamanho de bloco ideal em relação ao tempo médio de resposta (MRT)."
   },
   {
     "title": "A Software Maintenance Methodology: An Approach Applied to Software Aging",
@@ -61,25 +96,68 @@
     "date": "April 15 – May 15, 2021",
     "location": "Vancouver, Canada",
     "url": "https://ieeexplore.ieee.org/document/9447082",
-    "pdf": "https://www.example.com/software_maintenance.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2021.pdf",
+    "abstract": "The increasing use of computational systems has highlighted concerns about attributes that may influence the quality of service, such as performance, availability, reliability, and maintenance capacity. Failures in the software development process may impact these attributes. Flawed code and overall software misdesign may cause internal errors, leading to system malfunction. Some errors might be identified and fixed during the software testing process. However, other errors may manifest only during the production stage. This is the case of the software aging phenomenon, which is related to the progressive degradation that a software performance or reliability suffers during its operational life. This paper proposes a methodology for software maintenance that is tailored to identify, correct, and mitigate the software aging effects. If the source code can be modified and a new version deployed with minimal impact, thus data from aging detection is used for corrective maintenance, i.e., for fixing the bug that causes the aging effects. If the software cannot be fixed nor its version updated without long system interruption or other bad consequences, then our approach can mitigate the aging effects, in a preventive maintenance to avoid service outages. The proposed methodology is validated through both Stochastic Petri Net (SPN) models and experiments in a controlled environment. The model evaluation considering a hybrid maintenance routine (preventive and corrective) yielded an availability of 99.82%, representing an annual downtime of 15.9 hours. By contrast, the baseline scenario containing only reactive maintenance (i.e., repairing only after failure) had more than 1342 hours of annual downtime- 80 times higher than the proposed approach."
+  },
+  {
+    "title": "Impact Evaluation of DDoS Attacks Using IoT Devices",
+    "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Paulo Pereira", "Jamilson Dantas", "Julio Mendonça", "Paulo Maciel"],
+    "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
+    "date": "April 15 – May 15, 2021",
+    "location": "Vancouver, Canada",
+    "url": "https://ieeexplore.ieee.org/document/9447145",
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2021-2.pdf",
+    "abstract": "Distributed Denial-of-Service (DDoS) attacks can occur anytime, everywhere, and most normally occur with little or no warning. Most small and medium businesses (SMBs) usually are not prepared to deal with this type of attack. The companies must have at least a bandwidth higher than the attack, an infrastructure with redundant components, regular backups, and firewalls capable of monitoring the threats. Otherwise, the services provided by the companies' support can be interrupted, increasing the chances of financial losses. Hierarchical modeling approaches are often used to evaluate the availability of such systems. It can represent different failures and repair events in distinct parts of the system. In this way, this paper proposes hierarchical models that describe the behavior of major IT systems and IoT device components and assess the DDoS effects on system availability. Therefore, we evaluate the impact of the DDoS attacks on computing systems using IoT devices in attack amplification. We assessed equations that estimate the attack feasibility, pain factor, attack propensity, attacker benefits, and technical ability. They enable a direct analytical solution for large systems. The attack tree indices show the impact of simultaneous attacks on a computer system and the several threats that will maximize the system downtime. The attack tree investigation results allow for planning and improving the system's availability, maintainability, and reliability."
+  },
+  {
+    "title": "Dependability and Sustainability Evaluation of Data Center Electrical Architectures",
+    "authors": ["Kadna Camboim", "João Ferreira", "Jean Araujo", "Carlos Melo", "Fernanda Alencar", "Paulo Maciel"],
+    "event": "The 15th Annual IEEE International Systems Conference (Syscon 2021)",
+    "date": "April 15 – May 15, 2021",
+    "location": "Vancouver, Canada",
+    "url": "https://ieeexplore.ieee.org/document/9447132",
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2021-3.pdf",
+    "abstract": "Faced with the demand to maintain the high availability of data centers (DC), companies are being pressured to seek sustainable alternatives, given that these infrastructures consume a total of 1% of all electricity worldwide [1]. In a time of pandemic (COVID-19), when the digital economy has assumed an even greater share of representativeness, DCs and telecommunications companies need to meet the requisitions of ”everything-as-a-service”. Linked to this are the large amounts of carbon dioxide (CO2) emitted into the atmosphere due to the production and consumption of energy caused by these infrastructures. Given the above, this paper proposes models of energy flow and reliability block diagrams to quantity the environmental impact from different raw materials used to feed the data center loads and computes sustainability and dependability metrics for the entire DC's power infrastructure. According to the specifications for classifying the tiers, this study's hybrid modeling is performed to represent four different electrical architectures. From the model evaluations, we compare whether the availability achieved corresponds to the minimum availability suggested for each tier and show the emissions of CO2 in the atmosphere for each tier over a year. Besides, we apply a parametric sensitivity analysis technique to identify the most critical components for the modeled systems' availability"
+  },
+  {
+    "title": "UNAME Tool: Automatic Generation of Computer Resources Monitoring Scripts",
+    "authors": ["Jean Araujo", "Carlos Melo", "Cezar Cordeiro"],
+    "event": "16th Iberian Conference on Information Systems and Technologies (CISTI, 2021)",
+    "date": "2021",
+    "location": "Chaves, Portugal",
+    "url": "https://ieeexplore.ieee.org/document/9476223",
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2021.pdf",
+    "abstract": "Decision-making regarding performance issues requires computer systems monitoring at any level of service provisioning. However, most of the available tools do not always allow flexibility, or when it does, it impacts directly the resource consumption through an intrusive methodology. This paper presents the UNAME tool, which proposes the automatic generation of Shell scripts for monitoring computational resources. Through a GUI, the user can drag in or out the components to be evaluated. The Linux monitoring commands were mapped to high-level representations of the computational resources, and now the user, through little interaction or knowledge about scripting, can generate their own scripts to monitor the required system resources. To demonstrate the UNAME tool feasibility we provide a case study and an evaluation scenario. The results demonstrated the effectiveness of the proposed tool."
+  },
+  {
+    "title": "Dependability and Sensitivity Analysis in Dense Data Center Networks",
+    "authors": ["Kadna Camboim", "Jean Araujo", "Carlos Melo", "Fernanda Alencar", "Paulo Maciel"],
+    "event": "16th Iberian Conference on Information Systems and Technologies (CISTI, 2021)",
+    "date": "2021",
+    "location": "Chaves, Portugal",
+    "url": "https://ieeexplore.ieee.org/document/9476627",
+    "pdf": "assets/publications/pdf/conferences/conference-cisti-2021-2.pdf",
+    "abstract": "The design, implementation, and maintenance of data center networks must meet numerous dependability requirements to guarantee the quality of service at a high level of reliability. This paper investigates dependability metrics and performs sensitivity analysis for data center networks with different redundancy levels. Our approach is based on hierarchical modeling in which we use reliability block diagrams. We applied the parametric sensitivity analysis technique in the proposed experiments to assess how sensitive the availability is concerning the model components' failure and repair times."
+  },
+  {
+    "title": "The Mercury Environment: A modeling tool for performance and dependability evaluation",
+    "authors": ["Thiago Pinheiro", "Danilo Oliveira", "Rubens Matos", "Bruno Silva", "Paulo Pereira", "Carlos Melo", "Felipe Oliveira", "Eduardo Tavares", "Jamilson Dantas", "Paulo Maciel"],
+    "event": "International Workshop on the Reliability of Intelligent Environments (WoRIE, 2021)",
+    "date": "2021",
+    "location": "Dubai, UAE",
+    "url": "https://ebooks.iospress.nl/volumearticle/57163",
+    "pdf": "assets/publications/pdf/chapters/chapter-mercury-2021.pdf",
+    "abstract": "It is important to be able to judge the performance or dependability metrics of a system and often we do so by using abstract models even when the system is in the conceptual phase. Evaluating a system by performing measurements can have a high temporal and/or financial cost, which may not be feasible. Mathematical models can provide estimates about system behavior and we need tools supporting different types of formalisms in order to compute desired metrics. The Mercury tool enables a range of models to be created and evaluated for supporting performance and dependability evaluations, such as reliability block diagrams (RBDs), dynamic RBDs (DRBDs), fault trees (FTs), stochastic Petri nets (SPNs), continuous and discrete-time Markov chains (CTMCs and DTMCs), as well as energy flow models (EFMs). In this paper, we introduce recent enhancements to Mercury, namely new SPN simulators, support to prioritized timed transitions, sensitivity analysis evaluation, several improvements to the usability of the tool, and support to DTMC and FT formalisms."
   },
   {
     "title": "Availability Evaluation and Maintenance Policy of Data Center Infrastructure",
     "authors": ["Kadna Camboim", "Carlos Melo", "Jean Araujo", "Fernanda Alencar"],
     "event": "Anais Estendidos do X Simpósio Brasileiro de Engenharia de Sistemas Computacionais",
     "date": "November 2020",
-    "location": "SBC",
+    "location": "Online",
     "url": "https://sol.sbc.org.br/index.php/sbesc_estendido/article/view/13113",
-    "pdf": "https://www.example.com/availability_evaluation.pdf"
-  },
-  {
-    "title": "Blockchain provisioning over private cloud computing environments: Availability modeling and cost requirements",
-    "authors": ["Carlos Melo", "Jamilson Dantas", "Ronierison Maciel", "Paulo Pereira", "Eder Quesado", "Paulo Maciel"],
-    "event": "The 8th International Conference on Cloud Networking (CloudNet)",
-    "date": "November 4-6, 2019",
-    "location": "Coimbra, Portugal",
-    "url": "https://ieeexplore.ieee.org/abstract/document/9064125/",
-    "pdf": "https://www.example.com/blockchain_provisioning.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-sbesc-2020.pdf",
+    "abstract": "The convergence of communication networks and the demand for storage and processing capacities for large amounts of information, especially in recent years, has driven requests for everything-as-a-service and has been generating, on an increasing scale, demands for new data center constructions. However, to meet dependability attributes, the design of these infrastructures needs to consider, at least, the system’s availability to be achieved. In this paper, we evaluate the availability of a Tier 1 data center infrastructure, considering the use of blade systems. We use modeling techniques based on reliability block diagrams and stochastic Petri nets to simulate a maintenance policy encompassed at different service levels (SLA). The results show dependability metrics, focusing on the availability and maintenance of these networks. We highlight the most severe difficulties in achieving high availability when there is no component redundancy, and the intervals between maintenance are long."
   },
   {
     "title": "Sensitivity Analysis in a BRT System",
@@ -88,34 +166,18 @@
     "date": "April 8-11, 2019",
     "location": "Orlando, USA",
     "url": "https://ieeexplore.ieee.org/abstract/document/8836823",
-    "pdf": "https://www.example.com/sensitivity_analysis.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2019.pdf",
+    "abstract": "Mobility investments have increased due to the inconvenience caused by delays, traffic jams and accidents. The Bus Rapid Transit (BRT) System is presented as an alternative to improve public transportation, as it can provide results with shorter travel time and lower costs, compared to other urban transportation systems. However, evaluating a system such as the BRT can be a complex task. Therefore, using analytical modeling can favor evaluation and improve planning, using performance metrics that can be calculated using these models. This work proposes a Stochastic Petri Net (SPN) model for evaluating the performance of a BRT System, focusing on sensitivity analyses to identify key factors that may affect Mean System Size, Mean Queue Size, Mean Queue Time and Utilization. Scenarios based on the BRT System were created, with the results showing that, from the managerial point of view, the factor that has the biggest impact on the chosen metrics is the interval between departures, which directly affects the formation of the queue, further affecting the passenger's arrival interval at the station or even the time of entry into the vehicle or the number of seats."
   },
   {
-    "title": "Impact Assessment of Multi-threats in Computer Systems Using Attack Tree Modeling",
-    "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Jamilson Dantas", "Paulo Maciel"],
-    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
-    "date": "October 7-10, 2018",
-    "location": "Myiazaki, Japan",
-    "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
-    "pdf": "https://www.example.com/multi_threats.pdf"
-  },
-  {
-    "title": "Evaluation of Encoding and Network Aspects on Video Streaming Performance: A Modeling and Experimental Approach",
-    "authors": ["Jamilson Dantas", "Rubens Matos", "Carlos Melo", "Jean Araujo", "João Ferreira", "Paulo Maciel"],
-    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
-    "date": "October 7-10, 2018",
-    "location": "Myiazaki, Japan",
-    "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
-    "pdf": "https://www.example.com/video_streaming.pdf"
-  },
-  {
-    "title": "Dependability Evaluation of a Blockchain-as-a-Service Environment",
-    "authors": ["Carlos Melo", "Jamilson Dantas", "Danilo Oliveira", "Iure Fé", "Rubens Matos", "Renata Dantas", "Ronierison Maciel", "Paulo Maciel"],
-    "event": "IEEE Symposium on Computers and Communications (ISCC’2018)",
-    "date": "June 25-28, 2018",
-    "location": "Natal, Brasil",
-    "url": "https://ieeexplore.ieee.org/abstract/document/8538752/",
-    "pdf": "https://www.example.com/blockchain_service.pdf"
+    "title": "Blockchain provisioning over private cloud computing environments: Availability modeling and cost requirements",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Ronierison Maciel", "Paulo Pereira", "Eder Quesado", "Paulo Maciel"],
+    "event": "The 8th International Conference on Cloud Networking (CloudNet)",
+    "date": "November 4-6, 2019",
+    "location": "Coimbra, Portugal",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9064125/",
+    "pdf": "assets/publications/pdf/conferences/conference-cloudnet-2019.pdf",
+    "abstract": "This paper proposes and evaluates availability models for blockchain provisioning over cloud computing infrastructures as well as their respective deployment expenses in order to establish a cost × benefit relationship. To demonstrate these models' feasibility, we provide two case studies considering blockchain provisioning over a baseline architecture, and three other alternative redundant environments."
   },
   {
     "title": "Impact of a DDoS Attack on Computer Systems: An Approach Based on an Attack Tree Model",
@@ -124,7 +186,8 @@
     "date": "April 23-26, 2018",
     "location": "Vancouver, Canadá",
     "url": "https://ieeexplore.ieee.org/abstract/document/8369611/",
-    "pdf": "https://www.example.com/ddos_attack.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2018.pdf",
+    "abstract": "Attacks that deny access to a service provider can occur anytime, anywhere, and most usually occur with little or no warning. Many small and midsize companies are not prepared to handle a significant outage. For an enterprise to face up to an attack of this type, it must possess a bandwidth higher than that of the attack, an infrastructure with redundant components, regular backups, firewalls for monitoring the threats and other proactive and reactive mechanisms. Otherwise, the service will be interrupted, increasing the chances of financial losses. Hierarchical modeling approaches are often used to evaluate the availability of such systems, thereby leveraging the representation of multiple failure and repair events in distinct parts of the system. This paper evaluates the impact of a distributed denial-of-service attack in computer systems. We propose hierarchical models that represent the behavior of major system components and assess the effects of a DDoS attack on the system availability. The equations that estimate the likelihood of an attack, attacker benefits, feasibility, the pain factor and the propensity of the offense were present. They enable a direct analytical solution for large systems. The results obtained from the attack tree analysis allow to plan and improve system's availability, maintainability, and reliability. The attack tree indices show the impact of simultaneous attacks on a computer system and the several threats which will maximize the system downtime."
   },
   {
     "title": "A Performability Model for the BRT System",
@@ -133,15 +196,97 @@
     "date": "April 23-26, 2018",
     "location": "Vancouver, Canadá",
     "url": "https://ieeexplore.ieee.org/abstract/document/8369608/",
-    "pdf": "https://www.example.com/brt_system.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2018-2.pdf",
+    "abstract": "Large cities have increasing mobility problems due to the large number of vehicles on the streets, which results in traffic jams and thus a waste of time and money. An alternative to improve traffic is to prioritize the public transportation system. Several metropolises around the world are adopting Bus Rapid Transit (BRT) systems since they present compelling results considering the cost-benefit perspective. Evaluating metrics such as performance, dependability, and performability, aids in planning, monitoring, and optimizing BRT systems. This paper presents hierarchical models, using CTMC modeling techniques, to assess metrics such as performance and performability. Results show that these models pointed to the peak intervals that are more likely to arrive at the destination in a shorter time, in addition to showing the probability of the vehicle being affected by the failure at each interval. It was also possible to establish bases for the replication of the model in different scenarios to enable new comparative studies."
+  },
+  {
+    "title": "Availability models for hyper-converged cloud computing infrastructures",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "André Oliveira", "Danilo Oliveira", "Iure Fé", "Jean Araujo", "Rubens Matos", "Paulo Maciel"],
+    "event": "SysCon 2018, 12th Annual IEEE International Systems Conference",
+    "date": "April 23-26, 2018",
+    "location": "Vancouver, Canadá",
+    "url": "https://ieeexplore.ieee.org/document/8369580",
+    "pdf": "assets/publications/pdf/conferences/conference-syscon-2018-3.pdf",
+    "abstract": "The software-defined data center (SDDC) concept replaces the older, scattered and disorganized silo-based architecture. The SDDC adoption implies the reduction of expenses with staff management and the infrastructure improvement, which becomes easier-to-keep, due mainly to the possibility to virtualize all these computational resources. Also, due to the components standardization, the required physical space to store, provide and maintain these environments have decreased. But a problem still remains, how to keep the system and service provisioning working under a stringent Service Level Agreement (SLA)? High Available (HA) environments have an annual downtime of fewer than five minutes; this is the closest that one can reach from a 100% of availability, usually many layers of redundancy are required to achieve this value. This paper evaluates the hyper-convergence, one of the ways to reach HA in cloud computing environments, but with fewer components than typical architectures. The hyper-convergence on OpenStack cloud computing platform utilizes a distributed storage mechanism to reduce the expenses with storage devices. To the proposed environments evaluation, some behavioral models were created, these models show how advantageous are distributed storage systems over typical ones. The availability results pointed out that the full triple redundancy environment availability values are pretty close to the ones extracted from a hyper-convergent environment even with 33% more components."
+  },
+  {
+    "title": "Evaluation of Encoding and Network Aspects on Video Streaming Performance: A Modeling and Experimental Approach",
+    "authors": ["Jamilson Dantas", "Rubens Matos", "Carlos Melo", "Jean Araujo", "João Ferreira", "Paulo Maciel"],
+    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "date": "October 7-10, 2018",
+    "location": "Myiazaki, Japan",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8616655/",
+    "pdf": "assets/publications/pdf/conferences/conference-smc-2018.pdf",
+    "abstract": "The adoption of stochastic models has been one of the central topics in various architectures. One important step to adopt it is model validation, which aims at obtaining reasonable models to represent actual behavior of services components, it has been essential to validate models against actual measurements. System-wide model simulation results can be compared with recordings from the measurement. In this paper, we accomplish the model validation to Stochastic Petri Net (SPN) models created to evaluate VoD system hosted on a private cloud system, considering MP4, MPG, Ogg and FLV formats. We proposed the performance model to represent packet transfers, and to compute performance metrics, such as throughput, packet loss, and service delivery reliability. The SPN model enables a compact representation of a large number of packets generated by video streaming. We validate the models through experimental data, using a VoD streaming service in a cloud infrastructure testbed. We demonstrate that the proposed models are accurate and can be utilized for planning the quality of service (QoS) of corporate video streaming infrastructures. A case study is presented to compare the behavior of the system. Results indicate that the model validation way adopted can be a good solution for models validation. A case study is conducted to compare the behavior of the system under distinct network scenarios. The results indicate that video streaming QoS under 3G (EVDO) networks is significantly worse than other wireless technologies, such as WiFi, 3.5G (HSPA+), and 4G (LTE)."
+  },
+  {
+    "title": "Impact Assessment of Multi-threats in Computer Systems Using Attack Tree Modeling",
+    "authors": ["Ronierison Maciel", "Jean Araujo", "Carlos Melo", "Jamilson Dantas", "Paulo Maciel"],
+    "event": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "date": "October 7-10, 2018",
+    "location": "Myiazaki, Japan",
+    "url": "https://ieeexplore.ieee.org/document/8616416",
+    "pdf": "assets/publications/pdf/conferences/conference-smc-2018-2.pdf",
+    "abstract": "Attacks that deny access to a service provider can occur anytime, anywhere, and most usually occur with little or no warning. Many small and midsize companies are not prepared to handle a significant outage. For an enterprise to face up to an attack of this type, it must possess a bandwidth higher than that of the attack, an infrastructure with redundant components, regular backups, firewalls for monitoring the threats and other proactive and reactive mechanisms. Otherwise, the service will be interrupted, increasing the chances of financial losses. Hierarchical modeling approaches are often used to evaluate the availability of such systems, thereby leveraging the representation of multiple failure and repair events in distinct parts of the system. This paper evaluates the impact of a distributed denial-of-service attack and malicious software in computer systems. We propose hierarchical models that represent the behavior of major system components and assess the effects of a DDoS and Malware attack on the system availability. We also estimate the likelihood of an attack, attacker benefits, feasibility, the pain factor and the propensity of the offense were present. They enable a direct analytical solution for large systems. The attack tree indices show the impact of simultaneous attacks on a computer system and the several threats which will maximize the system downtime. The results obtained from the attack tree analysis allow to plan and improve system's availability, maintainability, and reliability."
+  },
+  {
+    "title": "Dependability Evaluation of a Blockchain-as-a-Service Environment",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Danilo Oliveira", "Iure Fé", "Rubens Matos", "Renata Dantas", "Ronierison Maciel", "Paulo Maciel"],
+    "event": "IEEE Symposium on Computers and Communications (ISCC, 2018)",
+    "date": "June 25-28, 2018",
+    "location": "Natal, Brazil",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8538752/",
+    "pdf": "assets/publications/pdf/conferences/conference-iscc-2018.pdf",
+    "abstract": "The blockchain shared ledger emerged as an alternative to the bureaucratic banking system that may take days to confirm a payment or a transfer between clients. The blockchain concept evolved and became viable for various applications beyond the domain of financial transactions. Blockchains become a way to reach better relationships through contract validation, documents transfer, and personal and business data security. Recently, the blockchain-as-a-service has debuted on Microsoft Data Centers, and now many share an infrastructure that can change and improve their security routines. This paper evaluates the feasibility of a blockchain-as-a-service infrastructure and helps those who plan to deploy or sell blockchains. A modeling methodology based on Dynamical Reliability Block Diagrams (DRBD) is adopted to evaluate two dependability attributes: system's reliability and availability. The proposed infrastructure contains the minimum requirements to deploy the Hyperledger Cello, a platform to create and manage blockchains. The availability results pointed out a system downtime of 121 hours per year and reliability issues that must be addressed when building blockchain-as-a-service infrastructures."
+  },
+  {
+    "title": "Capacity-Oriented Availability Model for Resources Estimation on Private Cloud Infrastructure",
+    "authors": ["Carlos Melo", "Rubens Matos", "Jamilson Dantas", "Paulo Maciel"],
+    "event": " IEEE 22nd Pacific Rim International Symposium on Dependable Computing (PRDC, 2017)",
+    "date": "2017",
+    "location": "Christchurch, New Zealand",
+    "url": "https://ieeexplore.ieee.org/document/7920629",
+    "pdf": "assets/publications/pdf/conferences/conference-prdc-2017.pdf",
+    "abstract": "Predicting the amount of resources available to system's users has become a task of interest to services providers even with the advent of elastic cloud computing, because the number of resources is finite despite being virtually infinite on the customer view. This paper proposes a model to evaluate node's capacity in a cloud computing environment based on the amount of available hardware resources. By combining models to availability evaluation, such as reliability block diagrams, representing the operational infrastructure mode, and stochastic Petri net for capacity-oriented availability evaluation, we can determine the real amount of resources available at a predetermined time interval. Sensitivity analysis is also used to determine the component with highest impact in the metric of interest. The models, methods, and results of this research shall aid companies to plan the deployment and configuration of their services and cloud computing infrastructure."
+  },
+  {
+    "title": "Synchronization server infrastructure: A relationship between system downtime and deployment cost",
+    "authors": ["Carlos Melo", "Jamilson Dantas", "Iure Fé", "André Oliveira", "Paulo Maciel"],
+    "event": " IEEE International Conference on Systems, Man, and Cybernetics (SMC, 2017)",
+    "date": "2017",
+    "location": "Banff, Canada",
+    "url": "https://ieeexplore.ieee.org/document/8122784",
+    "pdf": "assets/publications/pdf/conferences/conference-smc-2017.pdf",
+    "abstract": "The perfect relationship between deployment costs and systems availability is one of the primary goals of companies that wish to provide some computer environment or service through the Internet. The question that everyone wants to know the answer is: How much may I save and still improve the availability of my system avoiding financial losses with an SLA contract breach? This paper attempts to respond to this question by combining some techniques used at dependability evaluation field, such like hierarchical models, sensitive analysis techniques, and analysis costs. The models shown in this paper are artifacts and scenarios for a data synchronization server hosted at a private cloud computing platform based on Eucalyptus. Each scenario presented here was generated to study the impact of redundant techniques in the system availability and deployment cost. By analyzing each architecture separately and comparing them, we can indicate the one that has the best cost-benefit relationship and attends the providers, as well as the client's needs."
+  },
+  {
+    "title": "Stochastic model of performance and cost for auto-scaling planning in public cloud",
+    "authors": ["Iure Fé", "Rubens Matos", "Jamilson Dantas", "Carlos Melo", "Paulo Maciel"],
+    "event": " IEEE International Conference on Systems, Man, and Cybernetics (SMC, 2017)",
+    "date": "2017",
+    "location": "Banff, Canada",
+    "url": "https://ieeexplore.ieee.org/document/8122926",
+    "pdf": "assets/publications/pdf/conferences/conference-smc-2017-2.pdf",
+    "abstract": "Cloud computing has the potential to reduce the cost of systems on the Internet. Elasticity mechanisms, such as auto-scaling, enable avoiding wastes, delivering only the necessary resources. Defining and implementing an efficient auto-scaling policy is a complex task that depends on the parameter setting, types of VM contracts and the expected workload. All those variables must be taken into account when establishing the tradeoffs between performance and cost to fulfill a given servicelevel agreement (SLA). We propose a stochastic model to assist in cloud planning. The model was validated for a set of significant scenarios by comparing the respective model's results with those obtained from real system measurements. This model takes as input the auto-scaling configuration parameters and the time between user requests. The proposed model is employed to compute throughput, mean response time, and cost of the cloud computing infrastructure setup. A sensitivity analysis was also conducted for identifying the parameters impact on the system performance."
   },
   {
     "title": "Availability Models for Synchronization Server Infrastructure",
     "authors": ["Carlos Melo", "Jamilson Dantas", "Jean Araújo", "Paulo Maciel", "Rodrigo Branchini", "Luiz Kawakami"],
-    "event": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "event": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC, 2016)",
     "date": "October 9-12, 2016",
     "location": "Budapest, Hungary",
     "url": "https://ieeexplore.ieee.org/abstract/document/7844802",
-    "pdf": "https://www.example.com/synchronization_server.pdf"
+    "pdf": "assets/publications/pdf/conferences/conference-smc-2016.pdf",
+    "abstract": "Users of computer systems wish to keep their personal data safe, updated, fair and accessible by other terminals, like personal computers, smart phones, portable consoles and PDAs. To perform these activities, one technology has become popular in our daily lives: data synchronization. Companies that provide this kind of service must do it with the greatest availability possible since their clients need their data to be available whenever they want to access it, and their customers in the legal field must avoid financial losses through SLA contract breaches. This paper presents hierarchical models for evaluating the availability of a data synchronization server infrastructure. The results show an availability of 98.82% for the proposed architecture, which means an annual downtime of 103 hours, this is more than 4 days of unavailability, where users cannot perform data synchronization."
+  },
+  {
+    "title": "Ambiente Virtualizado para Ensino de Programação Paralela e Computação em Cluster.",
+    "authors": ["David Beserra", "Micael França", "Carlos Melo", "Ygor Sousa", "Samuel Souto", "Erica Sousa", "Mariel Andrade", "Alberto Araujo"],
+    "event": " XXI Workshop sobre Educação em Computação (SMC)",
+    "date": "2013",
+    "location": "Maceió, Brazil",
+    "url": "https://sol.sbc.org.br/index.php/wei/article/view/27770",
+    "pdf": "assets/publications/pdf/conferences/conference-wei-2013.pdf",
+    "abstract": "Tópicos relativos à programação paralela e multicomputação costumam ser ofertados em cursos de computação e possuem caráter essencial na formação de um profissional de Tecnologia da Informação (TI). Esses tópicos costumam ser apresentados somente em nível teórico devido a falta de infraestrutura adequada, prejudicando o aprendizado. Este trabalho apresenta o Cluster Saber, um cluster virtualizado para ensino de programação paralela e computação em cluster. O ambiente é instalado sobre uma infraestrutura já existente usando tecnologias simples e gratuitas. Ele pode ser acessado remotamente em qualquer dia da semana pelos alunos. O ambiente pode ser implementado e mantido pelos próprios alunos."
   }
 ]
