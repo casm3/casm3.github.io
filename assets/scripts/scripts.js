@@ -26,26 +26,27 @@ document.addEventListener("DOMContentLoaded", function() {
                         const abstractButton = document.createElement('button');
                         abstractButton.className = 'abstract-button';
                         abstractButton.textContent = 'Abstract';
-                        abstractButton.onclick = () => {
-                            const content = item.querySelector('.abstract-content');
-                            if (content.style.display === 'none') {
-                                content.style.display = 'block';
+
+                        const abstractContent = document.createElement('div');
+                        abstractContent.className = 'abstract-content';
+                        abstractContent.textContent = publication.abstract || "No abstract available.";
+                        abstractContent.style.display = 'none'; // Explicitamente ocultar inicialmente
+
+                        abstractButton.addEventListener('click', () => {
+                            if (abstractContent.style.display === 'none') {
+                                abstractContent.style.display = 'block';
                                 abstractButton.textContent = 'Hide Abstract';
                             } else {
-                                content.style.display = 'none';
+                                abstractContent.style.display = 'none';
                                 abstractButton.textContent = 'Abstract';
                             }
-                        };
+                        });
 
                         const pdfButton = document.createElement('a');
                         pdfButton.href = publication.pdf;
                         pdfButton.download = publication.title;
                         pdfButton.className = 'pdf-button';
                         pdfButton.innerHTML = '<img src="assets/img/pdf-icon.png" alt="PDF Icon">';
-
-                        const abstractContent = document.createElement('div');
-                        abstractContent.className = 'abstract-content';
-                        abstractContent.textContent = publication.abstract || "No abstract available.";
 
                         const buttonsContainer = document.createElement('div');
                         buttonsContainer.className = 'publication-buttons';
