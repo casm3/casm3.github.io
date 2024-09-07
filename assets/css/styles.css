@@ -246,7 +246,6 @@ span {
   text-align: justify; /* Alinha o texto do abstract em justificado */
 }
 
-
 .abstract-content.visible {
   display: block;
 }
@@ -260,4 +259,36 @@ span {
   .publication-buttons {
     flex-direction: column;
   }
+}
+
+.download-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-group {
+  margin: 10px 0;
+}
+
+.download-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #40514E;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
